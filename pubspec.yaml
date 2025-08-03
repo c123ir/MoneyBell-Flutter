@@ -1,0 +1,37 @@
+name: smart_money_bell
+description: اپلیکیشن هوشمند مدیریت سرمایه‌گذاری
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # فونت‌های فارسی
+  fonts:
+    - family: Vazir
+      fonts:
+        - asset: assets/fonts/Vazirmatn-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Vazirmatn-Bold.ttf  
+          weight: 700
+    - family: IRANSans
+      fonts:
+        - asset: assets/fonts/IRANSans-Light.ttf
+          weight: 400
+        - asset: assets/fonts/IRANSans-Bold.ttf
+          weight: 700
