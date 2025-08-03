@@ -1,0 +1,1423 @@
+.
+├── Docs
+│   ├── github_update_guide.md
+│   ├── project_complete_documentation.md
+│   ├── troubleshooting_and_rules.md
+│   └── وضعیت فعلی و راهنمای ادامه توسعه - چت شماره یک.md
+├── README.md
+├── analysis_options.yaml
+├── android
+│   ├── app
+│   │   ├── build.gradle.kts
+│   │   └── src
+│   │       ├── debug
+│   │       │   └── AndroidManifest.xml
+│   │       ├── main
+│   │       │   ├── AndroidManifest.xml
+│   │       │   ├── java
+│   │       │   │   └── io
+│   │       │   │       └── flutter
+│   │       │   │           └── plugins
+│   │       │   │               └── GeneratedPluginRegistrant.java
+│   │       │   ├── kotlin
+│   │       │   │   └── com
+│   │       │   │       └── example
+│   │       │   │           └── smart_money_bell
+│   │       │   │               └── MainActivity.kt
+│   │       │   └── res
+│   │       │       ├── drawable
+│   │       │       │   └── launch_background.xml
+│   │       │       ├── drawable-v21
+│   │       │       │   └── launch_background.xml
+│   │       │       ├── mipmap-hdpi
+│   │       │       │   └── ic_launcher.png
+│   │       │       ├── mipmap-mdpi
+│   │       │       │   └── ic_launcher.png
+│   │       │       ├── mipmap-xhdpi
+│   │       │       │   └── ic_launcher.png
+│   │       │       ├── mipmap-xxhdpi
+│   │       │       │   └── ic_launcher.png
+│   │       │       ├── mipmap-xxxhdpi
+│   │       │       │   └── ic_launcher.png
+│   │       │       ├── values
+│   │       │       │   └── styles.xml
+│   │       │       └── values-night
+│   │       │           └── styles.xml
+│   │       └── profile
+│   │           └── AndroidManifest.xml
+│   ├── build.gradle.kts
+│   ├── gradle
+│   │   └── wrapper
+│   │       └── gradle-wrapper.properties
+│   ├── gradle.properties
+│   ├── local.properties
+│   └── settings.gradle.kts
+├── assets
+│   └── fonts
+│       ├── IRANSans-Bold.ttf
+│       ├── IRANSans-Light.ttf
+│       ├── Vazirmatn-Bold.ttf
+│       └── Vazirmatn-Regular.ttf
+├── build
+│   ├── 900796f7b9ccbc2c67791458f2c7c15e
+│   │   ├── _composite.stamp
+│   │   ├── gen_dart_plugin_registrant.stamp
+│   │   └── gen_localizations.stamp
+│   ├── d7b177071baaf4ee18da1044770cbdc7.cache.dill.track.dill
+│   ├── flutter_assets
+│   │   ├── AssetManifest.bin
+│   │   ├── AssetManifest.bin.json
+│   │   ├── AssetManifest.json
+│   │   ├── FontManifest.json
+│   │   ├── NOTICES
+│   │   ├── assets
+│   │   │   └── fonts
+│   │   │       ├── IRANSans-Bold.ttf
+│   │   │       ├── IRANSans-Light.ttf
+│   │   │       ├── Vazirmatn-Bold.ttf
+│   │   │       └── Vazirmatn-Regular.ttf
+│   │   ├── fonts
+│   │   │   └── MaterialIcons-Regular.otf
+│   │   ├── packages
+│   │   │   └── cupertino_icons
+│   │   │       └── assets
+│   │   │           └── CupertinoIcons.ttf
+│   │   └── shaders
+│   │       └── ink_sparkle.frag
+│   ├── macos
+│   │   ├── Build
+│   │   │   ├── Intermediates.noindex
+│   │   │   │   ├── EagerLinkingTBDs
+│   │   │   │   │   └── Debug
+│   │   │   │   ├── ExplicitPrecompiledModules
+│   │   │   │   │   ├── AvailabilityMacros-BGDCPR7PTTWCRG1CVXE70PIRN.d
+│   │   │   │   │   ├── AvailabilityMacros-BGDCPR7PTTWCRG1CVXE70PIRN.dia
+│   │   │   │   │   ├── AvailabilityMacros-BGDCPR7PTTWCRG1CVXE70PIRN.pcm
+│   │   │   │   │   ├── AvailabilityMacros-BGDCPR7PTTWCRG1CVXE70PIRN.scan
+│   │   │   │   │   ├── CFNetwork-A48CB1354PKBB691CL9OZ75C4.d
+│   │   │   │   │   ├── CFNetwork-A48CB1354PKBB691CL9OZ75C4.dia
+│   │   │   │   │   ├── CFNetwork-A48CB1354PKBB691CL9OZ75C4.pcm
+│   │   │   │   │   ├── CFNetwork-A48CB1354PKBB691CL9OZ75C4.scan
+│   │   │   │   │   ├── CoreFoundation-EGKA8S03QEVTG7VFY4TEY09XL.d
+│   │   │   │   │   ├── CoreFoundation-EGKA8S03QEVTG7VFY4TEY09XL.dia
+│   │   │   │   │   ├── CoreFoundation-EGKA8S03QEVTG7VFY4TEY09XL.pcm
+│   │   │   │   │   ├── CoreFoundation-EGKA8S03QEVTG7VFY4TEY09XL.scan
+│   │   │   │   │   ├── CoreGraphics-B9NYWPA693FHYUEGKKC8QIG69.d
+│   │   │   │   │   ├── CoreGraphics-B9NYWPA693FHYUEGKKC8QIG69.dia
+│   │   │   │   │   ├── CoreGraphics-B9NYWPA693FHYUEGKKC8QIG69.pcm
+│   │   │   │   │   ├── CoreGraphics-B9NYWPA693FHYUEGKKC8QIG69.scan
+│   │   │   │   │   ├── CoreServices-B35F5LROOXGS0QTO7DIDRKI2.d
+│   │   │   │   │   ├── CoreServices-B35F5LROOXGS0QTO7DIDRKI2.dia
+│   │   │   │   │   ├── CoreServices-B35F5LROOXGS0QTO7DIDRKI2.pcm
+│   │   │   │   │   ├── CoreServices-B35F5LROOXGS0QTO7DIDRKI2.scan
+│   │   │   │   │   ├── Darwin-3RWEMYXLIYMIQ4OTXUUFB11Z1.d
+│   │   │   │   │   ├── Darwin-3RWEMYXLIYMIQ4OTXUUFB11Z1.dia
+│   │   │   │   │   ├── Darwin-3RWEMYXLIYMIQ4OTXUUFB11Z1.pcm
+│   │   │   │   │   ├── Darwin-3RWEMYXLIYMIQ4OTXUUFB11Z1.scan
+│   │   │   │   │   ├── DarwinFoundation-1LYMSAU71DN78S2MCV0A0WHAT.d
+│   │   │   │   │   ├── DarwinFoundation-1LYMSAU71DN78S2MCV0A0WHAT.dia
+│   │   │   │   │   ├── DarwinFoundation-1LYMSAU71DN78S2MCV0A0WHAT.pcm
+│   │   │   │   │   ├── DarwinFoundation-1LYMSAU71DN78S2MCV0A0WHAT.scan
+│   │   │   │   │   ├── DiskArbitration-7IQ9FAAUQT7PA9LXPCJQXLV3L.d
+│   │   │   │   │   ├── DiskArbitration-7IQ9FAAUQT7PA9LXPCJQXLV3L.dia
+│   │   │   │   │   ├── DiskArbitration-7IQ9FAAUQT7PA9LXPCJQXLV3L.pcm
+│   │   │   │   │   ├── DiskArbitration-7IQ9FAAUQT7PA9LXPCJQXLV3L.scan
+│   │   │   │   │   ├── Dispatch-6EX0307RYFSYLJBXRNTL4O9QR.d
+│   │   │   │   │   ├── Dispatch-6EX0307RYFSYLJBXRNTL4O9QR.dia
+│   │   │   │   │   ├── Dispatch-6EX0307RYFSYLJBXRNTL4O9QR.pcm
+│   │   │   │   │   ├── Dispatch-6EX0307RYFSYLJBXRNTL4O9QR.scan
+│   │   │   │   │   ├── Foundation-4CWT0IW8MGLKF3JQFRJK4ZA6K.d
+│   │   │   │   │   ├── Foundation-4CWT0IW8MGLKF3JQFRJK4ZA6K.dia
+│   │   │   │   │   ├── Foundation-4CWT0IW8MGLKF3JQFRJK4ZA6K.pcm
+│   │   │   │   │   ├── Foundation-4CWT0IW8MGLKF3JQFRJK4ZA6K.scan
+│   │   │   │   │   ├── IOKit-50RWSUOBWC5X9FX85FCBATOYG.d
+│   │   │   │   │   ├── IOKit-50RWSUOBWC5X9FX85FCBATOYG.dia
+│   │   │   │   │   ├── IOKit-50RWSUOBWC5X9FX85FCBATOYG.pcm
+│   │   │   │   │   ├── IOKit-50RWSUOBWC5X9FX85FCBATOYG.scan
+│   │   │   │   │   ├── MachO-4OZ97JTUPYCLESLG1LJDBOVJK.d
+│   │   │   │   │   ├── MachO-4OZ97JTUPYCLESLG1LJDBOVJK.dia
+│   │   │   │   │   ├── MachO-4OZ97JTUPYCLESLG1LJDBOVJK.pcm
+│   │   │   │   │   ├── MachO-4OZ97JTUPYCLESLG1LJDBOVJK.scan
+│   │   │   │   │   ├── ObjectiveC-3NYK73Y1VMBOULEPW4EK540GL.d
+│   │   │   │   │   ├── ObjectiveC-3NYK73Y1VMBOULEPW4EK540GL.dia
+│   │   │   │   │   ├── ObjectiveC-3NYK73Y1VMBOULEPW4EK540GL.pcm
+│   │   │   │   │   ├── ObjectiveC-3NYK73Y1VMBOULEPW4EK540GL.scan
+│   │   │   │   │   ├── Security-3ZUCNXG92T31XY5MYSVOACAUA.d
+│   │   │   │   │   ├── Security-3ZUCNXG92T31XY5MYSVOACAUA.dia
+│   │   │   │   │   ├── Security-3ZUCNXG92T31XY5MYSVOACAUA.pcm
+│   │   │   │   │   ├── Security-3ZUCNXG92T31XY5MYSVOACAUA.scan
+│   │   │   │   │   ├── TargetConditionals-E30IEJQIHHR545BKSGLVJB6CY.d
+│   │   │   │   │   ├── TargetConditionals-E30IEJQIHHR545BKSGLVJB6CY.dia
+│   │   │   │   │   ├── TargetConditionals-E30IEJQIHHR545BKSGLVJB6CY.pcm
+│   │   │   │   │   ├── TargetConditionals-E30IEJQIHHR545BKSGLVJB6CY.scan
+│   │   │   │   │   ├── XPC-DENRYSL68FYZW35DO8B9VQA8Z.d
+│   │   │   │   │   ├── XPC-DENRYSL68FYZW35DO8B9VQA8Z.dia
+│   │   │   │   │   ├── XPC-DENRYSL68FYZW35DO8B9VQA8Z.pcm
+│   │   │   │   │   ├── XPC-DENRYSL68FYZW35DO8B9VQA8Z.scan
+│   │   │   │   │   ├── _Builtin_float-44MRCC85TFJHG2ZFLHCTNEHJW.d
+│   │   │   │   │   ├── _Builtin_float-44MRCC85TFJHG2ZFLHCTNEHJW.dia
+│   │   │   │   │   ├── _Builtin_float-44MRCC85TFJHG2ZFLHCTNEHJW.pcm
+│   │   │   │   │   ├── _Builtin_float-44MRCC85TFJHG2ZFLHCTNEHJW.scan
+│   │   │   │   │   ├── _Builtin_inttypes-3EAZY2IHU57327ZXNCL621DJT.d
+│   │   │   │   │   ├── _Builtin_inttypes-3EAZY2IHU57327ZXNCL621DJT.dia
+│   │   │   │   │   ├── _Builtin_inttypes-3EAZY2IHU57327ZXNCL621DJT.pcm
+│   │   │   │   │   ├── _Builtin_inttypes-3EAZY2IHU57327ZXNCL621DJT.scan
+│   │   │   │   │   ├── _Builtin_iso646-4AKZ6OCKEJU6B9ZIRD3J9B8GG.d
+│   │   │   │   │   ├── _Builtin_iso646-4AKZ6OCKEJU6B9ZIRD3J9B8GG.dia
+│   │   │   │   │   ├── _Builtin_iso646-4AKZ6OCKEJU6B9ZIRD3J9B8GG.pcm
+│   │   │   │   │   ├── _Builtin_iso646-4AKZ6OCKEJU6B9ZIRD3J9B8GG.scan
+│   │   │   │   │   ├── _Builtin_limits-19UDD6WSXP67KG073YOLX23MA.d
+│   │   │   │   │   ├── _Builtin_limits-19UDD6WSXP67KG073YOLX23MA.dia
+│   │   │   │   │   ├── _Builtin_limits-19UDD6WSXP67KG073YOLX23MA.pcm
+│   │   │   │   │   ├── _Builtin_limits-19UDD6WSXP67KG073YOLX23MA.scan
+│   │   │   │   │   ├── _Builtin_stdarg-EBCH5RWSV3MDEA06VAXEVRXIM.d
+│   │   │   │   │   ├── _Builtin_stdarg-EBCH5RWSV3MDEA06VAXEVRXIM.dia
+│   │   │   │   │   ├── _Builtin_stdarg-EBCH5RWSV3MDEA06VAXEVRXIM.pcm
+│   │   │   │   │   ├── _Builtin_stdarg-EBCH5RWSV3MDEA06VAXEVRXIM.scan
+│   │   │   │   │   ├── _Builtin_stdatomic-6GZEC2K0D54XBPJH0U0KYTG78.d
+│   │   │   │   │   ├── _Builtin_stdatomic-6GZEC2K0D54XBPJH0U0KYTG78.dia
+│   │   │   │   │   ├── _Builtin_stdatomic-6GZEC2K0D54XBPJH0U0KYTG78.pcm
+│   │   │   │   │   ├── _Builtin_stdatomic-6GZEC2K0D54XBPJH0U0KYTG78.scan
+│   │   │   │   │   ├── _Builtin_stdbool-D8HWNKQFJ0LPAV2KIWP6QY2S2.d
+│   │   │   │   │   ├── _Builtin_stdbool-D8HWNKQFJ0LPAV2KIWP6QY2S2.dia
+│   │   │   │   │   ├── _Builtin_stdbool-D8HWNKQFJ0LPAV2KIWP6QY2S2.pcm
+│   │   │   │   │   ├── _Builtin_stdbool-D8HWNKQFJ0LPAV2KIWP6QY2S2.scan
+│   │   │   │   │   ├── _Builtin_stddef-8P5R009F2BFUXKF7AJ18YQ1A5.d
+│   │   │   │   │   ├── _Builtin_stddef-8P5R009F2BFUXKF7AJ18YQ1A5.dia
+│   │   │   │   │   ├── _Builtin_stddef-8P5R009F2BFUXKF7AJ18YQ1A5.pcm
+│   │   │   │   │   ├── _Builtin_stddef-8P5R009F2BFUXKF7AJ18YQ1A5.scan
+│   │   │   │   │   ├── _Builtin_stdint-887GPCO18NPWOID8D9PAVP814.d
+│   │   │   │   │   ├── _Builtin_stdint-887GPCO18NPWOID8D9PAVP814.dia
+│   │   │   │   │   ├── _Builtin_stdint-887GPCO18NPWOID8D9PAVP814.pcm
+│   │   │   │   │   ├── _Builtin_stdint-887GPCO18NPWOID8D9PAVP814.scan
+│   │   │   │   │   ├── _Builtin_tgmath-AJNZX0VTBG82SGQFHOJE6E03.d
+│   │   │   │   │   ├── _Builtin_tgmath-AJNZX0VTBG82SGQFHOJE6E03.dia
+│   │   │   │   │   ├── _Builtin_tgmath-AJNZX0VTBG82SGQFHOJE6E03.pcm
+│   │   │   │   │   ├── _Builtin_tgmath-AJNZX0VTBG82SGQFHOJE6E03.scan
+│   │   │   │   │   ├── __wctype-5SIEIECSKXA30OZ34KHUG6BIB.d
+│   │   │   │   │   ├── __wctype-5SIEIECSKXA30OZ34KHUG6BIB.dia
+│   │   │   │   │   ├── __wctype-5SIEIECSKXA30OZ34KHUG6BIB.pcm
+│   │   │   │   │   ├── __wctype-5SIEIECSKXA30OZ34KHUG6BIB.scan
+│   │   │   │   │   ├── _assert-ABBFZQQQ7AMR77QH5JR87B66J.d
+│   │   │   │   │   ├── _assert-ABBFZQQQ7AMR77QH5JR87B66J.dia
+│   │   │   │   │   ├── _assert-ABBFZQQQ7AMR77QH5JR87B66J.pcm
+│   │   │   │   │   ├── _assert-ABBFZQQQ7AMR77QH5JR87B66J.scan
+│   │   │   │   │   ├── _complex-6HBVKDNLGCXGGB9ZKS4BGDSSK.d
+│   │   │   │   │   ├── _complex-6HBVKDNLGCXGGB9ZKS4BGDSSK.dia
+│   │   │   │   │   ├── _complex-6HBVKDNLGCXGGB9ZKS4BGDSSK.pcm
+│   │   │   │   │   ├── _complex-6HBVKDNLGCXGGB9ZKS4BGDSSK.scan
+│   │   │   │   │   ├── _ctype-1P34QBTWDJWIW37FYTPESMUVH.d
+│   │   │   │   │   ├── _ctype-1P34QBTWDJWIW37FYTPESMUVH.dia
+│   │   │   │   │   ├── _ctype-1P34QBTWDJWIW37FYTPESMUVH.pcm
+│   │   │   │   │   ├── _ctype-1P34QBTWDJWIW37FYTPESMUVH.scan
+│   │   │   │   │   ├── _errno-52MOMZR9I1N4V5TTQBHK17DYZ.d
+│   │   │   │   │   ├── _errno-52MOMZR9I1N4V5TTQBHK17DYZ.dia
+│   │   │   │   │   ├── _errno-52MOMZR9I1N4V5TTQBHK17DYZ.pcm
+│   │   │   │   │   ├── _errno-52MOMZR9I1N4V5TTQBHK17DYZ.scan
+│   │   │   │   │   ├── _fenv-5MYPY0XZWPOY1A3BUDNR6AJPR.d
+│   │   │   │   │   ├── _fenv-5MYPY0XZWPOY1A3BUDNR6AJPR.dia
+│   │   │   │   │   ├── _fenv-5MYPY0XZWPOY1A3BUDNR6AJPR.pcm
+│   │   │   │   │   ├── _fenv-5MYPY0XZWPOY1A3BUDNR6AJPR.scan
+│   │   │   │   │   ├── _float-AJ77MMO3290NWZNXB18I2MU83.d
+│   │   │   │   │   ├── _float-AJ77MMO3290NWZNXB18I2MU83.dia
+│   │   │   │   │   ├── _float-AJ77MMO3290NWZNXB18I2MU83.pcm
+│   │   │   │   │   ├── _float-AJ77MMO3290NWZNXB18I2MU83.scan
+│   │   │   │   │   ├── _inttypes-8U66P0IVW3NC7H5OYCJ6Q1I5U.d
+│   │   │   │   │   ├── _inttypes-8U66P0IVW3NC7H5OYCJ6Q1I5U.dia
+│   │   │   │   │   ├── _inttypes-8U66P0IVW3NC7H5OYCJ6Q1I5U.pcm
+│   │   │   │   │   ├── _inttypes-8U66P0IVW3NC7H5OYCJ6Q1I5U.scan
+│   │   │   │   │   ├── _limits-BBIAYZLWIZG4JDWRSB9XOGNTA.d
+│   │   │   │   │   ├── _limits-BBIAYZLWIZG4JDWRSB9XOGNTA.dia
+│   │   │   │   │   ├── _limits-BBIAYZLWIZG4JDWRSB9XOGNTA.pcm
+│   │   │   │   │   ├── _limits-BBIAYZLWIZG4JDWRSB9XOGNTA.scan
+│   │   │   │   │   ├── _locale-B1FBVP7UMVNU7RYX8TLJFHWB2.d
+│   │   │   │   │   ├── _locale-B1FBVP7UMVNU7RYX8TLJFHWB2.dia
+│   │   │   │   │   ├── _locale-B1FBVP7UMVNU7RYX8TLJFHWB2.pcm
+│   │   │   │   │   ├── _locale-B1FBVP7UMVNU7RYX8TLJFHWB2.scan
+│   │   │   │   │   ├── _math-BN67TU53YXMAWXPJ725885LO5.d
+│   │   │   │   │   ├── _math-BN67TU53YXMAWXPJ725885LO5.dia
+│   │   │   │   │   ├── _math-BN67TU53YXMAWXPJ725885LO5.pcm
+│   │   │   │   │   ├── _math-BN67TU53YXMAWXPJ725885LO5.scan
+│   │   │   │   │   ├── _setjmp-7ZS70LVC1YN03MXDL8Q56AXUY.d
+│   │   │   │   │   ├── _setjmp-7ZS70LVC1YN03MXDL8Q56AXUY.dia
+│   │   │   │   │   ├── _setjmp-7ZS70LVC1YN03MXDL8Q56AXUY.pcm
+│   │   │   │   │   ├── _setjmp-7ZS70LVC1YN03MXDL8Q56AXUY.scan
+│   │   │   │   │   ├── _signal-BD73Y6YA8A7PR6EKI6L5OCS97.d
+│   │   │   │   │   ├── _signal-BD73Y6YA8A7PR6EKI6L5OCS97.dia
+│   │   │   │   │   ├── _signal-BD73Y6YA8A7PR6EKI6L5OCS97.pcm
+│   │   │   │   │   ├── _signal-BD73Y6YA8A7PR6EKI6L5OCS97.scan
+│   │   │   │   │   ├── _stdint-DFC5TTS2C5VVOVQWBMBB5CIV5.d
+│   │   │   │   │   ├── _stdint-DFC5TTS2C5VVOVQWBMBB5CIV5.dia
+│   │   │   │   │   ├── _stdint-DFC5TTS2C5VVOVQWBMBB5CIV5.pcm
+│   │   │   │   │   ├── _stdint-DFC5TTS2C5VVOVQWBMBB5CIV5.scan
+│   │   │   │   │   ├── _stdio-A5CGP1WO0OZAP7HPJ1IQSCTSF.d
+│   │   │   │   │   ├── _stdio-A5CGP1WO0OZAP7HPJ1IQSCTSF.dia
+│   │   │   │   │   ├── _stdio-A5CGP1WO0OZAP7HPJ1IQSCTSF.pcm
+│   │   │   │   │   ├── _stdio-A5CGP1WO0OZAP7HPJ1IQSCTSF.scan
+│   │   │   │   │   ├── _stdlib-88CUJVN2HDPDZ51IHBV9QCZYA.d
+│   │   │   │   │   ├── _stdlib-88CUJVN2HDPDZ51IHBV9QCZYA.dia
+│   │   │   │   │   ├── _stdlib-88CUJVN2HDPDZ51IHBV9QCZYA.pcm
+│   │   │   │   │   ├── _stdlib-88CUJVN2HDPDZ51IHBV9QCZYA.scan
+│   │   │   │   │   ├── _string-A1X3KE6R2PVY0YZO9P1E6Z1YB.d
+│   │   │   │   │   ├── _string-A1X3KE6R2PVY0YZO9P1E6Z1YB.dia
+│   │   │   │   │   ├── _string-A1X3KE6R2PVY0YZO9P1E6Z1YB.pcm
+│   │   │   │   │   ├── _string-A1X3KE6R2PVY0YZO9P1E6Z1YB.scan
+│   │   │   │   │   ├── _strings-342GONVQEV68L3B1MT6BHYEJ0.d
+│   │   │   │   │   ├── _strings-342GONVQEV68L3B1MT6BHYEJ0.dia
+│   │   │   │   │   ├── _strings-342GONVQEV68L3B1MT6BHYEJ0.pcm
+│   │   │   │   │   ├── _strings-342GONVQEV68L3B1MT6BHYEJ0.scan
+│   │   │   │   │   ├── _sys_select-B1FHQBIEYIQSOCY5CKL9W7OOM.d
+│   │   │   │   │   ├── _sys_select-B1FHQBIEYIQSOCY5CKL9W7OOM.dia
+│   │   │   │   │   ├── _sys_select-B1FHQBIEYIQSOCY5CKL9W7OOM.pcm
+│   │   │   │   │   ├── _sys_select-B1FHQBIEYIQSOCY5CKL9W7OOM.scan
+│   │   │   │   │   ├── _tgmath-9SE437RHIG8B8LK1G6Q566GLQ.d
+│   │   │   │   │   ├── _tgmath-9SE437RHIG8B8LK1G6Q566GLQ.dia
+│   │   │   │   │   ├── _tgmath-9SE437RHIG8B8LK1G6Q566GLQ.pcm
+│   │   │   │   │   ├── _tgmath-9SE437RHIG8B8LK1G6Q566GLQ.scan
+│   │   │   │   │   ├── _time-5BF0BI0RIOICGXE9THES8OYC0.d
+│   │   │   │   │   ├── _time-5BF0BI0RIOICGXE9THES8OYC0.dia
+│   │   │   │   │   ├── _time-5BF0BI0RIOICGXE9THES8OYC0.pcm
+│   │   │   │   │   ├── _time-5BF0BI0RIOICGXE9THES8OYC0.scan
+│   │   │   │   │   ├── _useconds_t-C6PYOQ5SCP1GOZ641A7MHV2F3.d
+│   │   │   │   │   ├── _useconds_t-C6PYOQ5SCP1GOZ641A7MHV2F3.dia
+│   │   │   │   │   ├── _useconds_t-C6PYOQ5SCP1GOZ641A7MHV2F3.pcm
+│   │   │   │   │   ├── _useconds_t-C6PYOQ5SCP1GOZ641A7MHV2F3.scan
+│   │   │   │   │   ├── _wchar-D5T2Z5H7WH9ZUSHQCYG19SL3U.d
+│   │   │   │   │   ├── _wchar-D5T2Z5H7WH9ZUSHQCYG19SL3U.dia
+│   │   │   │   │   ├── _wchar-D5T2Z5H7WH9ZUSHQCYG19SL3U.pcm
+│   │   │   │   │   ├── _wchar-D5T2Z5H7WH9ZUSHQCYG19SL3U.scan
+│   │   │   │   │   ├── _wctype-9SPBU5F0ZL8O3E714BJEU6T58.d
+│   │   │   │   │   ├── _wctype-9SPBU5F0ZL8O3E714BJEU6T58.dia
+│   │   │   │   │   ├── _wctype-9SPBU5F0ZL8O3E714BJEU6T58.pcm
+│   │   │   │   │   ├── _wctype-9SPBU5F0ZL8O3E714BJEU6T58.scan
+│   │   │   │   │   ├── alloca-CXKBVXD3BW0APSHLIE8WB6N3Q.d
+│   │   │   │   │   ├── alloca-CXKBVXD3BW0APSHLIE8WB6N3Q.dia
+│   │   │   │   │   ├── alloca-CXKBVXD3BW0APSHLIE8WB6N3Q.pcm
+│   │   │   │   │   ├── alloca-CXKBVXD3BW0APSHLIE8WB6N3Q.scan
+│   │   │   │   │   ├── gethostuuid-EP3V3CDZ7FXI39Z8B24LBBVY8.d
+│   │   │   │   │   ├── gethostuuid-EP3V3CDZ7FXI39Z8B24LBBVY8.dia
+│   │   │   │   │   ├── gethostuuid-EP3V3CDZ7FXI39Z8B24LBBVY8.pcm
+│   │   │   │   │   ├── gethostuuid-EP3V3CDZ7FXI39Z8B24LBBVY8.scan
+│   │   │   │   │   ├── launch-6P290SKOTEPWM686K7XBRILA0.d
+│   │   │   │   │   ├── launch-6P290SKOTEPWM686K7XBRILA0.dia
+│   │   │   │   │   ├── launch-6P290SKOTEPWM686K7XBRILA0.pcm
+│   │   │   │   │   ├── launch-6P290SKOTEPWM686K7XBRILA0.scan
+│   │   │   │   │   ├── libDER-73OH2LEF6X04GL4VB60YLJMXW.d
+│   │   │   │   │   ├── libDER-73OH2LEF6X04GL4VB60YLJMXW.dia
+│   │   │   │   │   ├── libDER-73OH2LEF6X04GL4VB60YLJMXW.pcm
+│   │   │   │   │   ├── libDER-73OH2LEF6X04GL4VB60YLJMXW.scan
+│   │   │   │   │   ├── libkern-9GISDI62WOW5YDHY1AD2LRHWQ.d
+│   │   │   │   │   ├── libkern-9GISDI62WOW5YDHY1AD2LRHWQ.dia
+│   │   │   │   │   ├── libkern-9GISDI62WOW5YDHY1AD2LRHWQ.pcm
+│   │   │   │   │   ├── libkern-9GISDI62WOW5YDHY1AD2LRHWQ.scan
+│   │   │   │   │   ├── mach-13YM6UKJLY2GMRN8AJ6QXD52R.d
+│   │   │   │   │   ├── mach-13YM6UKJLY2GMRN8AJ6QXD52R.dia
+│   │   │   │   │   ├── mach-13YM6UKJLY2GMRN8AJ6QXD52R.pcm
+│   │   │   │   │   ├── mach-13YM6UKJLY2GMRN8AJ6QXD52R.scan
+│   │   │   │   │   ├── netinet_in-CXU2VT729AFWBOHSA4692OCC0.d
+│   │   │   │   │   ├── netinet_in-CXU2VT729AFWBOHSA4692OCC0.dia
+│   │   │   │   │   ├── netinet_in-CXU2VT729AFWBOHSA4692OCC0.pcm
+│   │   │   │   │   ├── netinet_in-CXU2VT729AFWBOHSA4692OCC0.scan
+│   │   │   │   │   ├── nl_types-8UFF7QR6GS7FDF5IZ1YKQY7CK.d
+│   │   │   │   │   ├── nl_types-8UFF7QR6GS7FDF5IZ1YKQY7CK.dia
+│   │   │   │   │   ├── nl_types-8UFF7QR6GS7FDF5IZ1YKQY7CK.pcm
+│   │   │   │   │   ├── nl_types-8UFF7QR6GS7FDF5IZ1YKQY7CK.scan
+│   │   │   │   │   ├── os_availability-671QQF8QITQ2KQHREG9CPZMVO.d
+│   │   │   │   │   ├── os_availability-671QQF8QITQ2KQHREG9CPZMVO.dia
+│   │   │   │   │   ├── os_availability-671QQF8QITQ2KQHREG9CPZMVO.pcm
+│   │   │   │   │   ├── os_availability-671QQF8QITQ2KQHREG9CPZMVO.scan
+│   │   │   │   │   ├── os_availability_internal-B64T0LITFHF5183SFLVTEIIUF.d
+│   │   │   │   │   ├── os_availability_internal-B64T0LITFHF5183SFLVTEIIUF.dia
+│   │   │   │   │   ├── os_availability_internal-B64T0LITFHF5183SFLVTEIIUF.pcm
+│   │   │   │   │   ├── os_availability_internal-B64T0LITFHF5183SFLVTEIIUF.scan
+│   │   │   │   │   ├── os_object-ELLG0DIUED6YL3FOWEM2JXKLL.d
+│   │   │   │   │   ├── os_object-ELLG0DIUED6YL3FOWEM2JXKLL.dia
+│   │   │   │   │   ├── os_object-ELLG0DIUED6YL3FOWEM2JXKLL.pcm
+│   │   │   │   │   ├── os_object-ELLG0DIUED6YL3FOWEM2JXKLL.scan
+│   │   │   │   │   ├── os_workgroup-6R1Y9UNL25B2RLB6YWFQ03BH5.d
+│   │   │   │   │   ├── os_workgroup-6R1Y9UNL25B2RLB6YWFQ03BH5.dia
+│   │   │   │   │   ├── os_workgroup-6R1Y9UNL25B2RLB6YWFQ03BH5.pcm
+│   │   │   │   │   ├── os_workgroup-6R1Y9UNL25B2RLB6YWFQ03BH5.scan
+│   │   │   │   │   ├── pthread-BIZRES1G9NDSGRBMS0YHUMR49.d
+│   │   │   │   │   ├── pthread-BIZRES1G9NDSGRBMS0YHUMR49.dia
+│   │   │   │   │   ├── pthread-BIZRES1G9NDSGRBMS0YHUMR49.pcm
+│   │   │   │   │   ├── pthread-BIZRES1G9NDSGRBMS0YHUMR49.scan
+│   │   │   │   │   ├── ptrauth-9D11JUIXB6QKD0FH741HP8BTX.d
+│   │   │   │   │   ├── ptrauth-9D11JUIXB6QKD0FH741HP8BTX.dia
+│   │   │   │   │   ├── ptrauth-9D11JUIXB6QKD0FH741HP8BTX.pcm
+│   │   │   │   │   ├── ptrauth-9D11JUIXB6QKD0FH741HP8BTX.scan
+│   │   │   │   │   ├── ptrcheck-9TSOCP7NA7SZCF1M8J768ZDAO.d
+│   │   │   │   │   ├── ptrcheck-9TSOCP7NA7SZCF1M8J768ZDAO.dia
+│   │   │   │   │   ├── ptrcheck-9TSOCP7NA7SZCF1M8J768ZDAO.pcm
+│   │   │   │   │   ├── ptrcheck-9TSOCP7NA7SZCF1M8J768ZDAO.scan
+│   │   │   │   │   ├── runetype-AYPSOOF15B9RHSIUA946BJ60H.d
+│   │   │   │   │   ├── runetype-AYPSOOF15B9RHSIUA946BJ60H.dia
+│   │   │   │   │   ├── runetype-AYPSOOF15B9RHSIUA946BJ60H.pcm
+│   │   │   │   │   ├── runetype-AYPSOOF15B9RHSIUA946BJ60H.scan
+│   │   │   │   │   ├── sys_resource-62RMJBQTI63YTPH93QIBT06N.d
+│   │   │   │   │   ├── sys_resource-62RMJBQTI63YTPH93QIBT06N.dia
+│   │   │   │   │   ├── sys_resource-62RMJBQTI63YTPH93QIBT06N.pcm
+│   │   │   │   │   ├── sys_resource-62RMJBQTI63YTPH93QIBT06N.scan
+│   │   │   │   │   ├── sys_select-15OFEQ6GMI0XYPZXTAOFE5ZVJ.d
+│   │   │   │   │   ├── sys_select-15OFEQ6GMI0XYPZXTAOFE5ZVJ.dia
+│   │   │   │   │   ├── sys_select-15OFEQ6GMI0XYPZXTAOFE5ZVJ.pcm
+│   │   │   │   │   ├── sys_select-15OFEQ6GMI0XYPZXTAOFE5ZVJ.scan
+│   │   │   │   │   ├── sys_time-ERM1M5F81CGXEIHU2O6YWHE02.d
+│   │   │   │   │   ├── sys_time-ERM1M5F81CGXEIHU2O6YWHE02.dia
+│   │   │   │   │   ├── sys_time-ERM1M5F81CGXEIHU2O6YWHE02.pcm
+│   │   │   │   │   ├── sys_time-ERM1M5F81CGXEIHU2O6YWHE02.scan
+│   │   │   │   │   ├── sys_types-32JELL5RFAZ0REKCPZXRWIM6Z.d
+│   │   │   │   │   ├── sys_types-32JELL5RFAZ0REKCPZXRWIM6Z.dia
+│   │   │   │   │   ├── sys_types-32JELL5RFAZ0REKCPZXRWIM6Z.pcm
+│   │   │   │   │   ├── sys_types-32JELL5RFAZ0REKCPZXRWIM6Z.scan
+│   │   │   │   │   ├── sys_wait-8R3RFJXSU5H9TJ1FTAFMK7SQ0.d
+│   │   │   │   │   ├── sys_wait-8R3RFJXSU5H9TJ1FTAFMK7SQ0.dia
+│   │   │   │   │   ├── sys_wait-8R3RFJXSU5H9TJ1FTAFMK7SQ0.pcm
+│   │   │   │   │   ├── sys_wait-8R3RFJXSU5H9TJ1FTAFMK7SQ0.scan
+│   │   │   │   │   ├── unistd-APWCYK8OTPRYV74NTTHSHZQD0.d
+│   │   │   │   │   ├── unistd-APWCYK8OTPRYV74NTTHSHZQD0.dia
+│   │   │   │   │   ├── unistd-APWCYK8OTPRYV74NTTHSHZQD0.pcm
+│   │   │   │   │   ├── unistd-APWCYK8OTPRYV74NTTHSHZQD0.scan
+│   │   │   │   │   ├── uuid-4UJCFLX5NJPCH6E09B5FLW1P5.d
+│   │   │   │   │   ├── uuid-4UJCFLX5NJPCH6E09B5FLW1P5.dia
+│   │   │   │   │   ├── uuid-4UJCFLX5NJPCH6E09B5FLW1P5.pcm
+│   │   │   │   │   ├── uuid-4UJCFLX5NJPCH6E09B5FLW1P5.scan
+│   │   │   │   │   ├── xlocale-3Z0URJ8994ADA8CDB0YAYD9FT.d
+│   │   │   │   │   ├── xlocale-3Z0URJ8994ADA8CDB0YAYD9FT.dia
+│   │   │   │   │   ├── xlocale-3Z0URJ8994ADA8CDB0YAYD9FT.pcm
+│   │   │   │   │   └── xlocale-3Z0URJ8994ADA8CDB0YAYD9FT.scan
+│   │   │   │   ├── Pods.build
+│   │   │   │   │   └── Debug
+│   │   │   │   │       ├── Pods-8699adb1dd336b26511df848a716bd42-VFS
+│   │   │   │   │       │   └── all-product-headers.yaml
+│   │   │   │   │       └── Pods-Runner.build
+│   │   │   │   │           ├── DerivedSources
+│   │   │   │   │           │   └── Pods_Runner_vers.c
+│   │   │   │   │           ├── Objects-normal
+│   │   │   │   │           │   └── arm64
+│   │   │   │   │           │       ├── 7187679823f38a2a940e0043cdf9d637-common-args.resp
+│   │   │   │   │           │       ├── Pods-Runner-dummy.d
+│   │   │   │   │           │       ├── Pods-Runner-dummy.dia
+│   │   │   │   │           │       ├── Pods-Runner-dummy.o
+│   │   │   │   │           │       ├── Pods-Runner-dummy.o.scan
+│   │   │   │   │           │       ├── Pods_Runner.LinkFileList
+│   │   │   │   │           │       ├── Pods_Runner_libtool_dependency_info.dat
+│   │   │   │   │           │       ├── Pods_Runner_vers.d
+│   │   │   │   │           │       ├── Pods_Runner_vers.dia
+│   │   │   │   │           │       ├── Pods_Runner_vers.o
+│   │   │   │   │           │       ├── Pods_Runner_vers.o.scan
+│   │   │   │   │           │       └── e6072d4f65d7061329687fe24e3d63a7-common-args.resp
+│   │   │   │   │           ├── Pods_Runner-all-non-framework-target-headers.hmap
+│   │   │   │   │           ├── Pods_Runner-all-target-headers.hmap
+│   │   │   │   │           ├── Pods_Runner-generated-files.hmap
+│   │   │   │   │           ├── Pods_Runner-own-target-headers.hmap
+│   │   │   │   │           ├── Pods_Runner-project-headers.hmap
+│   │   │   │   │           ├── Pods_Runner.DependencyMetadataFileList
+│   │   │   │   │           ├── Pods_Runner.DependencyStaticMetadataFileList
+│   │   │   │   │           ├── Pods_Runner.hmap
+│   │   │   │   │           └── module.modulemap
+│   │   │   │   ├── Runner.build
+│   │   │   │   │   └── Debug
+│   │   │   │   │       ├── Flutter Assemble.build
+│   │   │   │   │       │   ├── InputFileList-33CC111E2044C6BF0003C045-FlutterInputs-896868381b6060470a5fc8dd827e8e34-resolved.xcfilelist
+│   │   │   │   │       │   ├── OutputFileList-33CC111E2044C6BF0003C045-FlutterOutputs-7755fc8d6302582e3087bee2326d8740-resolved.xcfilelist
+│   │   │   │   │       │   └── Script-33CC111E2044C6BF0003C045.sh
+│   │   │   │   │       ├── Runner-18c1723432283e0cc55f10a6dcfd9e02-VFS
+│   │   │   │   │       │   └── all-product-headers.yaml
+│   │   │   │   │       └── Runner.build
+│   │   │   │   │           ├── Base.lproj
+│   │   │   │   │           │   └── MainMenu-PartialInfo.plist
+│   │   │   │   │           ├── DerivedSources
+│   │   │   │   │           │   ├── Entitlements.plist
+│   │   │   │   │           │   ├── GeneratedAssetSymbols-Index.plist
+│   │   │   │   │           │   ├── GeneratedAssetSymbols.h
+│   │   │   │   │           │   ├── GeneratedAssetSymbols.swift
+│   │   │   │   │           │   ├── Pods-Runner-checkManifestLockResult.txt
+│   │   │   │   │           │   └── smart_money_bell-Swift.h
+│   │   │   │   │           ├── Objects-normal
+│   │   │   │   │           │   └── arm64
+│   │   │   │   │           │       ├── AppDelegate.d
+│   │   │   │   │           │       ├── AppDelegate.dia
+│   │   │   │   │           │       ├── AppDelegate.o
+│   │   │   │   │           │       ├── AppDelegate.swiftconstvalues
+│   │   │   │   │           │       ├── AppDelegate.swiftdeps
+│   │   │   │   │           │       ├── ExtractedAppShortcutsMetadata.stringsdata
+│   │   │   │   │           │       ├── GeneratedAssetSymbols.d
+│   │   │   │   │           │       ├── GeneratedAssetSymbols.dia
+│   │   │   │   │           │       ├── GeneratedAssetSymbols.o
+│   │   │   │   │           │       ├── GeneratedAssetSymbols.swiftconstvalues
+│   │   │   │   │           │       ├── GeneratedAssetSymbols.swiftdeps
+│   │   │   │   │           │       ├── GeneratedPluginRegistrant.d
+│   │   │   │   │           │       ├── GeneratedPluginRegistrant.dia
+│   │   │   │   │           │       ├── GeneratedPluginRegistrant.o
+│   │   │   │   │           │       ├── GeneratedPluginRegistrant.swiftconstvalues
+│   │   │   │   │           │       ├── GeneratedPluginRegistrant.swiftdeps
+│   │   │   │   │           │       ├── GeneratedPluginRegistrant.swiftdeps~
+│   │   │   │   │           │       ├── MainFlutterWindow.d
+│   │   │   │   │           │       ├── MainFlutterWindow.dia
+│   │   │   │   │           │       ├── MainFlutterWindow.o
+│   │   │   │   │           │       ├── MainFlutterWindow.swiftconstvalues
+│   │   │   │   │           │       ├── MainFlutterWindow.swiftdeps
+│   │   │   │   │           │       ├── Runner-OutputFileMap.json
+│   │   │   │   │           │       ├── Runner-master-emit-module.d
+│   │   │   │   │           │       ├── Runner-master-emit-module.dia
+│   │   │   │   │           │       ├── Runner-master.priors
+│   │   │   │   │           │       ├── Runner_const_extract_protocols.json
+│   │   │   │   │           │       ├── smart_money_bell-Swift.h
+│   │   │   │   │           │       ├── smart_money_bell.LinkFileList
+│   │   │   │   │           │       ├── smart_money_bell.SwiftConstValuesFileList
+│   │   │   │   │           │       ├── smart_money_bell.SwiftFileList
+│   │   │   │   │           │       ├── smart_money_bell.abi.json
+│   │   │   │   │           │       ├── smart_money_bell.swiftdoc
+│   │   │   │   │           │       ├── smart_money_bell.swiftmodule
+│   │   │   │   │           │       ├── smart_money_bell.swiftsourceinfo
+│   │   │   │   │           │       └── smart_money_bell_dependency_info.dat
+│   │   │   │   │           ├── Script-3399D490228B24CF009A79C7.sh
+│   │   │   │   │           ├── Script-8DBDD8DC5880A4CE16DB2B72.sh
+│   │   │   │   │           ├── SwiftStdLibToolInputDependencies.dep
+│   │   │   │   │           ├── assetcatalog_dependencies
+│   │   │   │   │           ├── assetcatalog_dependencies_thinned
+│   │   │   │   │           ├── assetcatalog_generated_info.plist
+│   │   │   │   │           ├── assetcatalog_generated_info.plist_thinned
+│   │   │   │   │           ├── assetcatalog_output
+│   │   │   │   │           │   ├── thinned
+│   │   │   │   │           │   │   ├── AppIcon.icns
+│   │   │   │   │           │   │   └── Assets.car
+│   │   │   │   │           │   └── unthinned
+│   │   │   │   │           ├── assetcatalog_signature
+│   │   │   │   │           ├── smart_money_bell-DebugDylibInstallName-normal-arm64.txt
+│   │   │   │   │           ├── smart_money_bell-DebugDylibPath-normal-arm64.txt
+│   │   │   │   │           ├── smart_money_bell-ExecutorLinkFileList-normal-arm64.txt
+│   │   │   │   │           ├── smart_money_bell-all-non-framework-target-headers.hmap
+│   │   │   │   │           ├── smart_money_bell-all-target-headers.hmap
+│   │   │   │   │           ├── smart_money_bell-generated-files.hmap
+│   │   │   │   │           ├── smart_money_bell-own-target-headers.hmap
+│   │   │   │   │           ├── smart_money_bell-project-headers.hmap
+│   │   │   │   │           ├── smart_money_bell.DependencyMetadataFileList
+│   │   │   │   │           ├── smart_money_bell.DependencyStaticMetadataFileList
+│   │   │   │   │           ├── smart_money_bell.app.xcent
+│   │   │   │   │           ├── smart_money_bell.app.xcent.der
+│   │   │   │   │           └── smart_money_bell.hmap
+│   │   │   │   └── XCBuildData
+│   │   │   │       ├── 1464280d3717f6e7bf33251ec3d8e349.xcbuilddata
+│   │   │   │       │   ├── attachments
+│   │   │   │       │   │   ├── 06cc125e2836c3c2cc12eef18232fa30
+│   │   │   │       │   │   ├── 0b9c3c01bd063d3007d085025396a9d6
+│   │   │   │       │   │   ├── 0e3e8d5199a0f1c22d629e0b5da00551
+│   │   │   │       │   │   ├── 18c72f8f80eb49d87d8f3ade5253048f
+│   │   │   │       │   │   ├── 3608afd2159a9c8218b50abe341c2a5f
+│   │   │   │       │   │   ├── 3e3500f23ea9c951c48db0047cce65c2
+│   │   │   │       │   │   ├── 4a4d8b323fb25206fc5fb1b1de712166
+│   │   │   │       │   │   ├── 53e356f46f73a608b1ba74bd728e225f
+│   │   │   │       │   │   ├── 5e3ad64611c2dfb18f752594a66aecb3
+│   │   │   │       │   │   ├── 601a30228ed699aadea1b6c5c1570f94
+│   │   │   │       │   │   ├── 65891c7f73f1c3719e65ebdf1faa089a
+│   │   │   │       │   │   ├── 668a57852120fe67ff6647bf14fbd67b
+│   │   │   │       │   │   ├── 67be5442b5cee3af3e3ec5b0eedb1c68
+│   │   │   │       │   │   ├── 67e76468a8cd78f03ef5535f8fd0ab00
+│   │   │   │       │   │   ├── 70068efddb6dece42e45051b9b24f4bc
+│   │   │   │       │   │   ├── 72bd73d214c7fa5ac2b3a8250d8f123c
+│   │   │   │       │   │   ├── 81f2955ca4ecdd61c66a45e6bd86a758
+│   │   │   │       │   │   ├── 8bba4233626f64a7ea772bb94a08a1a9
+│   │   │   │       │   │   ├── 940d080282a0dd13792c832be2267aef
+│   │   │   │       │   │   ├── a04bd504c87b478c4592d06281860c1b
+│   │   │   │       │   │   ├── b5c347a1c14733177577aaf3a8bce392
+│   │   │   │       │   │   ├── b7a45c2c31a9cccdb7806ac7255ade57
+│   │   │   │       │   │   ├── c20a8ccb84fa0d4fba1f8a3fc8c9d907
+│   │   │   │       │   │   ├── c9f70e334ed49d4089d4c6b0b655f71c
+│   │   │   │       │   │   ├── d17be584bc177d639f3cc04c90f9e0a8
+│   │   │   │       │   │   ├── d41d8cd98f00b204e9800998ecf8427e
+│   │   │   │       │   │   ├── dd1658b7275676660fb466feae65cfe1
+│   │   │   │       │   │   ├── f9fb310d54672ed5bbf7d4709a3931f0
+│   │   │   │       │   │   ├── fa17059944b8ce3b9cbb72e04bf736ea
+│   │   │   │       │   │   └── fd8314defc70a8778956f026c0ddfd19
+│   │   │   │       │   ├── build-request.json
+│   │   │   │       │   ├── description.msgpack
+│   │   │   │       │   ├── manifest.json
+│   │   │   │       │   ├── target-graph.txt
+│   │   │   │       │   └── task-store.msgpack
+│   │   │   │       ├── 75b2897db7a20a78924741d9aaf95159.xcbuilddata
+│   │   │   │       │   ├── attachments
+│   │   │   │       │   │   ├── 06cc125e2836c3c2cc12eef18232fa30
+│   │   │   │       │   │   ├── 0b9c3c01bd063d3007d085025396a9d6
+│   │   │   │       │   │   ├── 0e3e8d5199a0f1c22d629e0b5da00551
+│   │   │   │       │   │   ├── 18c72f8f80eb49d87d8f3ade5253048f
+│   │   │   │       │   │   ├── 3e3500f23ea9c951c48db0047cce65c2
+│   │   │   │       │   │   ├── 4a4d8b323fb25206fc5fb1b1de712166
+│   │   │   │       │   │   ├── 53e356f46f73a608b1ba74bd728e225f
+│   │   │   │       │   │   ├── 5e3ad64611c2dfb18f752594a66aecb3
+│   │   │   │       │   │   ├── 601a30228ed699aadea1b6c5c1570f94
+│   │   │   │       │   │   ├── 668a57852120fe67ff6647bf14fbd67b
+│   │   │   │       │   │   ├── 67be5442b5cee3af3e3ec5b0eedb1c68
+│   │   │   │       │   │   ├── 67e76468a8cd78f03ef5535f8fd0ab00
+│   │   │   │       │   │   ├── 6d78a6b72e76d28e9852edfb24490cec
+│   │   │   │       │   │   ├── 70068efddb6dece42e45051b9b24f4bc
+│   │   │   │       │   │   ├── 72bd73d214c7fa5ac2b3a8250d8f123c
+│   │   │   │       │   │   ├── 81f2955ca4ecdd61c66a45e6bd86a758
+│   │   │   │       │   │   ├── 8bba4233626f64a7ea772bb94a08a1a9
+│   │   │   │       │   │   ├── a04bd504c87b478c4592d06281860c1b
+│   │   │   │       │   │   ├── b5c347a1c14733177577aaf3a8bce392
+│   │   │   │       │   │   ├── c20a8ccb84fa0d4fba1f8a3fc8c9d907
+│   │   │   │       │   │   ├── c9f70e334ed49d4089d4c6b0b655f71c
+│   │   │   │       │   │   ├── d17be584bc177d639f3cc04c90f9e0a8
+│   │   │   │       │   │   ├── d41d8cd98f00b204e9800998ecf8427e
+│   │   │   │       │   │   ├── dd1658b7275676660fb466feae65cfe1
+│   │   │   │       │   │   ├── eaf133e647ab451717e6957831d42399
+│   │   │   │       │   │   ├── f9fb310d54672ed5bbf7d4709a3931f0
+│   │   │   │       │   │   ├── fa17059944b8ce3b9cbb72e04bf736ea
+│   │   │   │       │   │   └── fd8314defc70a8778956f026c0ddfd19
+│   │   │   │       │   ├── build-request.json
+│   │   │   │       │   ├── description.msgpack
+│   │   │   │       │   ├── manifest.json
+│   │   │   │       │   ├── target-graph.txt
+│   │   │   │       │   └── task-store.msgpack
+│   │   │   │       ├── PIFCache
+│   │   │   │       │   ├── project
+│   │   │   │       │   │   ├── PROJECT@v11_mod=2c796fe0e43c9e0ae9ad85163958431a_hash=18c1723432283e0cc55f10a6dcfd9e02plugins=1OJSG6M1FOV3XYQCBH7Z29RZ0FPR9XDE1-json
+│   │   │   │       │   │   └── PROJECT@v11_mod=bfebc1bcff4607f7aa571daee358d5b0_hash=8699adb1dd336b26511df848a716bd42plugins=1OJSG6M1FOV3XYQCBH7Z29RZ0FPR9XDE1-json
+│   │   │   │       │   ├── target
+│   │   │   │       │   │   ├── TARGET@v11_hash=145e85e68c2d8480f319c51505949d6d-json
+│   │   │   │       │   │   ├── TARGET@v11_hash=1bd1ba0416419a2d98d468c2786098c8-json
+│   │   │   │       │   │   ├── TARGET@v11_hash=7245aa96472a80d18151e10563f66f33-json
+│   │   │   │       │   │   ├── TARGET@v11_hash=8f964d5ce5a358b54ac7c152e650fa27-json
+│   │   │   │       │   │   ├── TARGET@v11_hash=ae8e777923fb91324939a7378b9c75e1-json
+│   │   │   │       │   │   └── TARGET@v11_hash=f300608d8add2d35d3c794e3834591e7-json
+│   │   │   │       │   └── workspace
+│   │   │   │       │       └── WORKSPACE@v11_hash=77b94008b7c5df906ef5d8070c8ff173_subobjects=17bdfdd6c74002e5e9396718790cc3c3-json
+│   │   │   │       └── build.db
+│   │   │   └── Products
+│   │   │       └── Debug
+│   │   │           ├── App.framework
+│   │   │           │   ├── App -> Versions/Current/App
+│   │   │           │   ├── Resources -> Versions/Current/Resources
+│   │   │           │   └── Versions
+│   │   │           │       ├── A
+│   │   │           │       │   ├── App
+│   │   │           │       │   └── Resources
+│   │   │           │       │       ├── Info.plist
+│   │   │           │       │       └── flutter_assets
+│   │   │           │       │           ├── AssetManifest.bin
+│   │   │           │       │           ├── AssetManifest.json
+│   │   │           │       │           ├── FontManifest.json
+│   │   │           │       │           ├── NOTICES.Z
+│   │   │           │       │           ├── NativeAssetsManifest.json
+│   │   │           │       │           ├── assets
+│   │   │           │       │           │   └── fonts
+│   │   │           │       │           │       ├── IRANSans-Bold.ttf
+│   │   │           │       │           │       ├── IRANSans-Light.ttf
+│   │   │           │       │           │       ├── Vazirmatn-Bold.ttf
+│   │   │           │       │           │       └── Vazirmatn-Regular.ttf
+│   │   │           │       │           ├── fonts
+│   │   │           │       │           │   └── MaterialIcons-Regular.otf
+│   │   │           │       │           ├── isolate_snapshot_data
+│   │   │           │       │           ├── kernel_blob.bin
+│   │   │           │       │           ├── packages
+│   │   │           │       │           │   └── cupertino_icons
+│   │   │           │       │           │       └── assets
+│   │   │           │       │           │           └── CupertinoIcons.ttf
+│   │   │           │       │           ├── shaders
+│   │   │           │       │           │   └── ink_sparkle.frag
+│   │   │           │       │           └── vm_snapshot_data
+│   │   │           │       └── Current -> A
+│   │   │           ├── FlutterMacOS
+│   │   │           ├── FlutterMacOS.framework
+│   │   │           │   ├── FlutterMacOS -> Versions/Current/FlutterMacOS
+│   │   │           │   ├── Headers -> Versions/Current/Headers
+│   │   │           │   ├── Modules -> Versions/Current/Modules
+│   │   │           │   ├── Resources -> Versions/Current/Resources
+│   │   │           │   └── Versions
+│   │   │           │       ├── A
+│   │   │           │       │   ├── FlutterMacOS
+│   │   │           │       │   ├── Headers
+│   │   │           │       │   │   ├── FlutterAppDelegate.h
+│   │   │           │       │   │   ├── FlutterAppLifecycleDelegate.h
+│   │   │           │       │   │   ├── FlutterBinaryMessenger.h
+│   │   │           │       │   │   ├── FlutterChannels.h
+│   │   │           │       │   │   ├── FlutterCodecs.h
+│   │   │           │       │   │   ├── FlutterDartProject.h
+│   │   │           │       │   │   ├── FlutterEngine.h
+│   │   │           │       │   │   ├── FlutterHourFormat.h
+│   │   │           │       │   │   ├── FlutterMacOS.h
+│   │   │           │       │   │   ├── FlutterMacros.h
+│   │   │           │       │   │   ├── FlutterPlatformViews.h
+│   │   │           │       │   │   ├── FlutterPluginMacOS.h
+│   │   │           │       │   │   ├── FlutterPluginRegistrarMacOS.h
+│   │   │           │       │   │   ├── FlutterTexture.h
+│   │   │           │       │   │   └── FlutterViewController.h
+│   │   │           │       │   ├── Modules
+│   │   │           │       │   │   └── module.modulemap
+│   │   │           │       │   ├── Resources
+│   │   │           │       │   │   ├── Info.plist
+│   │   │           │       │   │   ├── PrivacyInfo.xcprivacy
+│   │   │           │       │   │   └── icudtl.dat
+│   │   │           │       │   └── _CodeSignature
+│   │   │           │       │       └── CodeResources
+│   │   │           │       └── Current -> A
+│   │   │           ├── Pods_Runner.framework
+│   │   │           │   ├── Headers -> Versions/Current/Headers
+│   │   │           │   ├── Modules -> Versions/Current/Modules
+│   │   │           │   ├── Pods_Runner -> Versions/Current/Pods_Runner
+│   │   │           │   ├── Resources -> Versions/Current/Resources
+│   │   │           │   └── Versions
+│   │   │           │       ├── A
+│   │   │           │       │   ├── Headers
+│   │   │           │       │   │   └── Pods-Runner-umbrella.h
+│   │   │           │       │   ├── Modules
+│   │   │           │       │   │   └── module.modulemap
+│   │   │           │       │   ├── Pods_Runner
+│   │   │           │       │   └── Resources
+│   │   │           │       │       └── Info.plist
+│   │   │           │       └── Current -> A
+│   │   │           ├── smart_money_bell.app
+│   │   │           │   └── Contents
+│   │   │           │       ├── Frameworks
+│   │   │           │       │   ├── App.framework
+│   │   │           │       │   │   ├── App -> Versions/Current/App
+│   │   │           │       │   │   ├── Resources -> Versions/Current/Resources
+│   │   │           │       │   │   └── Versions
+│   │   │           │       │   │       ├── A
+│   │   │           │       │   │       │   ├── App
+│   │   │           │       │   │       │   ├── Resources
+│   │   │           │       │   │       │   │   ├── Info.plist
+│   │   │           │       │   │       │   │   └── flutter_assets
+│   │   │           │       │   │       │   │       ├── AssetManifest.bin
+│   │   │           │       │   │       │   │       ├── AssetManifest.json
+│   │   │           │       │   │       │   │       ├── FontManifest.json
+│   │   │           │       │   │       │   │       ├── NOTICES.Z
+│   │   │           │       │   │       │   │       ├── NativeAssetsManifest.json
+│   │   │           │       │   │       │   │       ├── assets
+│   │   │           │       │   │       │   │       │   └── fonts
+│   │   │           │       │   │       │   │       │       ├── IRANSans-Bold.ttf
+│   │   │           │       │   │       │   │       │       ├── IRANSans-Light.ttf
+│   │   │           │       │   │       │   │       │       ├── Vazirmatn-Bold.ttf
+│   │   │           │       │   │       │   │       │       └── Vazirmatn-Regular.ttf
+│   │   │           │       │   │       │   │       ├── fonts
+│   │   │           │       │   │       │   │       │   └── MaterialIcons-Regular.otf
+│   │   │           │       │   │       │   │       ├── isolate_snapshot_data
+│   │   │           │       │   │       │   │       ├── kernel_blob.bin
+│   │   │           │       │   │       │   │       ├── packages
+│   │   │           │       │   │       │   │       │   └── cupertino_icons
+│   │   │           │       │   │       │   │       │       └── assets
+│   │   │           │       │   │       │   │       │           └── CupertinoIcons.ttf
+│   │   │           │       │   │       │   │       ├── shaders
+│   │   │           │       │   │       │   │       │   └── ink_sparkle.frag
+│   │   │           │       │   │       │   │       └── vm_snapshot_data
+│   │   │           │       │   │       │   └── _CodeSignature
+│   │   │           │       │   │       │       └── CodeResources
+│   │   │           │       │   │       └── Current -> A
+│   │   │           │       │   ├── FlutterMacOS.framework
+│   │   │           │       │   │   ├── FlutterMacOS -> Versions/Current/FlutterMacOS
+│   │   │           │       │   │   ├── Resources -> Versions/Current/Resources
+│   │   │           │       │   │   └── Versions
+│   │   │           │       │   │       ├── A
+│   │   │           │       │   │       │   ├── FlutterMacOS
+│   │   │           │       │   │       │   ├── Resources
+│   │   │           │       │   │       │   │   ├── Info.plist
+│   │   │           │       │   │       │   │   ├── PrivacyInfo.xcprivacy
+│   │   │           │       │   │       │   │   └── icudtl.dat
+│   │   │           │       │   │       │   └── _CodeSignature
+│   │   │           │       │   │       │       └── CodeResources
+│   │   │           │       │   │       └── Current -> A
+│   │   │           │       │   ├── libswiftAppKit.dylib
+│   │   │           │       │   ├── libswiftCore.dylib
+│   │   │           │       │   ├── libswiftCoreAudio.dylib
+│   │   │           │       │   ├── libswiftCoreData.dylib
+│   │   │           │       │   ├── libswiftCoreFoundation.dylib
+│   │   │           │       │   ├── libswiftCoreGraphics.dylib
+│   │   │           │       │   ├── libswiftCoreImage.dylib
+│   │   │           │       │   ├── libswiftCoreMedia.dylib
+│   │   │           │       │   ├── libswiftDarwin.dylib
+│   │   │           │       │   ├── libswiftDispatch.dylib
+│   │   │           │       │   ├── libswiftFoundation.dylib
+│   │   │           │       │   ├── libswiftIOKit.dylib
+│   │   │           │       │   ├── libswiftMetal.dylib
+│   │   │           │       │   ├── libswiftObjectiveC.dylib
+│   │   │           │       │   ├── libswiftQuartzCore.dylib
+│   │   │           │       │   ├── libswiftXPC.dylib
+│   │   │           │       │   ├── libswiftos.dylib
+│   │   │           │       │   └── libswiftsimd.dylib
+│   │   │           │       ├── Info.plist
+│   │   │           │       ├── MacOS
+│   │   │           │       │   ├── __preview.dylib
+│   │   │           │       │   ├── smart_money_bell
+│   │   │           │       │   └── smart_money_bell.debug.dylib
+│   │   │           │       ├── PkgInfo
+│   │   │           │       ├── Resources
+│   │   │           │       │   ├── AppIcon.icns
+│   │   │           │       │   ├── Assets.car
+│   │   │           │       │   └── Base.lproj
+│   │   │           │       │       └── MainMenu.nib
+│   │   │           │       └── _CodeSignature
+│   │   │           │           └── CodeResources
+│   │   │           └── smart_money_bell.swiftmodule
+│   │   │               ├── Project
+│   │   │               │   └── arm64-apple-macos.swiftsourceinfo
+│   │   │               ├── arm64-apple-macos.abi.json
+│   │   │               ├── arm64-apple-macos.swiftdoc
+│   │   │               └── arm64-apple-macos.swiftmodule
+│   │   ├── CompilationCache.noindex
+│   │   │   └── generic
+│   │   │       ├── lock
+│   │   │       └── v1.1
+│   │   │           ├── v3.actions
+│   │   │           ├── v3.actions.shared
+│   │   │           ├── v8.data
+│   │   │           ├── v8.data.shared
+│   │   │           ├── v8.index
+│   │   │           └── v8.index.shared
+│   │   ├── Logs
+│   │   │   ├── Build
+│   │   │   │   ├── 217E5508-DE38-483B-B601-0730BBCA9F2B.xcactivitylog
+│   │   │   │   ├── CF464375-28EC-435F-B473-3240A8397EAD.xcactivitylog
+│   │   │   │   └── LogStoreManifest.plist
+│   │   │   ├── Launch
+│   │   │   │   └── LogStoreManifest.plist
+│   │   │   ├── Localization
+│   │   │   │   └── LogStoreManifest.plist
+│   │   │   ├── Package
+│   │   │   │   └── LogStoreManifest.plist
+│   │   │   └── Test
+│   │   │       └── LogStoreManifest.plist
+│   │   ├── ModuleCache.noindex
+│   │   │   ├── 31R7E6YW5X60I
+│   │   │   │   ├── Accessibility-RCJSN2GG3RAR.pcm
+│   │   │   │   ├── Accessibility-RCJSN2GG3RAR.pcm.timestamp
+│   │   │   │   ├── AppKit-2VI8NB39I5AT6.pcm
+│   │   │   │   ├── AppKit-2VI8NB39I5AT6.pcm.timestamp
+│   │   │   │   ├── ApplicationServices-3NXEUUZF9JJBD.pcm
+│   │   │   │   ├── ApplicationServices-3NXEUUZF9JJBD.pcm.timestamp
+│   │   │   │   ├── AvailabilityMacros-1R8AB8N4VAFAG.pcm
+│   │   │   │   ├── AvailabilityMacros-1R8AB8N4VAFAG.pcm.timestamp
+│   │   │   │   ├── CFNetwork-1PNPO1ORVQZLS.pcm
+│   │   │   │   ├── CFNetwork-1PNPO1ORVQZLS.pcm.timestamp
+│   │   │   │   ├── CUPS-1HLHMKUB322XA.pcm
+│   │   │   │   ├── CUPS-1HLHMKUB322XA.pcm.timestamp
+│   │   │   │   ├── Cocoa-1MK6YYY84V08M.pcm
+│   │   │   │   ├── Cocoa-1MK6YYY84V08M.pcm.timestamp
+│   │   │   │   ├── ColorSync-3EIM4S8RXNRVI.pcm
+│   │   │   │   ├── ColorSync-3EIM4S8RXNRVI.pcm.timestamp
+│   │   │   │   ├── CoreAudio-J9DSWC1670R6.pcm
+│   │   │   │   ├── CoreAudio-J9DSWC1670R6.pcm.timestamp
+│   │   │   │   ├── CoreAudioTypes-11649WXSRCA0E.pcm
+│   │   │   │   ├── CoreAudioTypes-11649WXSRCA0E.pcm.timestamp
+│   │   │   │   ├── CoreData-1KHK1L2CYC2N6.pcm
+│   │   │   │   ├── CoreData-1KHK1L2CYC2N6.pcm.timestamp
+│   │   │   │   ├── CoreFoundation-16SA8WK3L6MQN.pcm
+│   │   │   │   ├── CoreFoundation-16SA8WK3L6MQN.pcm.timestamp
+│   │   │   │   ├── CoreGraphics-1PSDCAYCIV3T9.pcm
+│   │   │   │   ├── CoreGraphics-1PSDCAYCIV3T9.pcm.timestamp
+│   │   │   │   ├── CoreImage-39ZO87840M5PP.pcm
+│   │   │   │   ├── CoreImage-39ZO87840M5PP.pcm.timestamp
+│   │   │   │   ├── CoreMedia-SHYM2JB41P4U.pcm
+│   │   │   │   ├── CoreMedia-SHYM2JB41P4U.pcm.timestamp
+│   │   │   │   ├── CoreServices-39NCTJOEW7PQ2.pcm
+│   │   │   │   ├── CoreServices-39NCTJOEW7PQ2.pcm.timestamp
+│   │   │   │   ├── CoreText-3FAL1B4J38DIR.pcm
+│   │   │   │   ├── CoreText-3FAL1B4J38DIR.pcm.timestamp
+│   │   │   │   ├── CoreTransferable-27T896KGHFB3R.pcm
+│   │   │   │   ├── CoreTransferable-27T896KGHFB3R.pcm.timestamp
+│   │   │   │   ├── CoreVideo-DBBGB2LXU3HG.pcm
+│   │   │   │   ├── CoreVideo-DBBGB2LXU3HG.pcm.timestamp
+│   │   │   │   ├── Darwin-1FXX23EKWOBA9.pcm
+│   │   │   │   ├── Darwin-1FXX23EKWOBA9.pcm.timestamp
+│   │   │   │   ├── DarwinFoundation-1W8U2OOUAA1YQ.pcm
+│   │   │   │   ├── DarwinFoundation-1W8U2OOUAA1YQ.pcm.timestamp
+│   │   │   │   ├── DataDetection-R5W4QHNMPWVH.pcm
+│   │   │   │   ├── DataDetection-R5W4QHNMPWVH.pcm.timestamp
+│   │   │   │   ├── DeveloperToolsSupport-3SUCMSK9ZS2JA.pcm
+│   │   │   │   ├── DeveloperToolsSupport-3SUCMSK9ZS2JA.pcm.timestamp
+│   │   │   │   ├── DiskArbitration-3LBJF5I58QD8.pcm
+│   │   │   │   ├── DiskArbitration-3LBJF5I58QD8.pcm.timestamp
+│   │   │   │   ├── Dispatch-R76HXUP80TVL.pcm
+│   │   │   │   ├── Dispatch-R76HXUP80TVL.pcm.timestamp
+│   │   │   │   ├── FlutterMacOS-37QMUZ4X19873.pcm
+│   │   │   │   ├── FlutterMacOS-37QMUZ4X19873.pcm.timestamp
+│   │   │   │   ├── Foundation-24LYWIP48SHNP.pcm
+│   │   │   │   ├── Foundation-24LYWIP48SHNP.pcm.timestamp
+│   │   │   │   ├── IOKit-1IAL9NTK1TABA.pcm
+│   │   │   │   ├── IOKit-1IAL9NTK1TABA.pcm.timestamp
+│   │   │   │   ├── IOSurface-26455DPS9NDS0.pcm
+│   │   │   │   ├── IOSurface-26455DPS9NDS0.pcm.timestamp
+│   │   │   │   ├── ImageIO-2ZSF831VT29UB.pcm
+│   │   │   │   ├── ImageIO-2ZSF831VT29UB.pcm.timestamp
+│   │   │   │   ├── MachO-20RPYVQSX341K.pcm
+│   │   │   │   ├── MachO-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── Metal-1GCZV9N85NJOH.pcm
+│   │   │   │   ├── Metal-1GCZV9N85NJOH.pcm.timestamp
+│   │   │   │   ├── OSLog-218FBXNFJGY61.pcm
+│   │   │   │   ├── OSLog-218FBXNFJGY61.pcm.timestamp
+│   │   │   │   ├── ObjectiveC-1G8H182PQX3QE.pcm
+│   │   │   │   ├── ObjectiveC-1G8H182PQX3QE.pcm.timestamp
+│   │   │   │   ├── OpenGL-H89XJT7GTCP.pcm
+│   │   │   │   ├── OpenGL-H89XJT7GTCP.pcm.timestamp
+│   │   │   │   ├── QuartzCore-39A8LQKF980J1.pcm
+│   │   │   │   ├── QuartzCore-39A8LQKF980J1.pcm.timestamp
+│   │   │   │   ├── Security-3QCVXOV25KK54.pcm
+│   │   │   │   ├── Security-3QCVXOV25KK54.pcm.timestamp
+│   │   │   │   ├── Spatial-1JZLH83HN83CS.pcm
+│   │   │   │   ├── Spatial-1JZLH83HN83CS.pcm.timestamp
+│   │   │   │   ├── SwiftShims-2IMTS4WWRU7VJ.pcm
+│   │   │   │   ├── SwiftShims-2IMTS4WWRU7VJ.pcm.timestamp
+│   │   │   │   ├── SwiftUI-3DCHKT5UWXXCX.pcm
+│   │   │   │   ├── SwiftUI-3DCHKT5UWXXCX.pcm.timestamp
+│   │   │   │   ├── SwiftUICore-86HIVXUC6WOA.pcm
+│   │   │   │   ├── SwiftUICore-86HIVXUC6WOA.pcm.timestamp
+│   │   │   │   ├── Symbols-3KC1789KJFX94.pcm
+│   │   │   │   ├── Symbols-3KC1789KJFX94.pcm.timestamp
+│   │   │   │   ├── TargetConditionals-1C41IB3E7JLP3.pcm
+│   │   │   │   ├── TargetConditionals-1C41IB3E7JLP3.pcm.timestamp
+│   │   │   │   ├── UniformTypeIdentifiers-1OLJP4K3PLM48.pcm
+│   │   │   │   ├── UniformTypeIdentifiers-1OLJP4K3PLM48.pcm.timestamp
+│   │   │   │   ├── XPC-T0ZXCAST7PE3.pcm
+│   │   │   │   ├── XPC-T0ZXCAST7PE3.pcm.timestamp
+│   │   │   │   ├── _Builtin_float-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_float-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_intrinsics-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_intrinsics-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_inttypes-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_inttypes-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_iso646-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_iso646-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_limits-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_limits-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_stdarg-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_stdarg-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_stdatomic-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_stdatomic-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_stdbool-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_stdbool-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_stddef-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_stddef-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_stdint-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_stdint-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_tgmath-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_tgmath-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _SwiftConcurrencyShims-2IMTS4WWRU7VJ.pcm
+│   │   │   │   ├── _SwiftConcurrencyShims-2IMTS4WWRU7VJ.pcm.timestamp
+│   │   │   │   ├── __wctype-47SZ9A199RUD.pcm
+│   │   │   │   ├── __wctype-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _assert-47SZ9A199RUD.pcm
+│   │   │   │   ├── _assert-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _complex-47SZ9A199RUD.pcm
+│   │   │   │   ├── _complex-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _ctype-47SZ9A199RUD.pcm
+│   │   │   │   ├── _ctype-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _errno-47SZ9A199RUD.pcm
+│   │   │   │   ├── _errno-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _fenv-47SZ9A199RUD.pcm
+│   │   │   │   ├── _fenv-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _float-47SZ9A199RUD.pcm
+│   │   │   │   ├── _float-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _inttypes-47SZ9A199RUD.pcm
+│   │   │   │   ├── _inttypes-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _limits-47SZ9A199RUD.pcm
+│   │   │   │   ├── _limits-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _locale-47SZ9A199RUD.pcm
+│   │   │   │   ├── _locale-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _math-47SZ9A199RUD.pcm
+│   │   │   │   ├── _math-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _setjmp-47SZ9A199RUD.pcm
+│   │   │   │   ├── _setjmp-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _signal-47SZ9A199RUD.pcm
+│   │   │   │   ├── _signal-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _stdint-47SZ9A199RUD.pcm
+│   │   │   │   ├── _stdint-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _stdio-47SZ9A199RUD.pcm
+│   │   │   │   ├── _stdio-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _stdlib-47SZ9A199RUD.pcm
+│   │   │   │   ├── _stdlib-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _string-47SZ9A199RUD.pcm
+│   │   │   │   ├── _string-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _strings-20RPYVQSX341K.pcm
+│   │   │   │   ├── _strings-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── _sys_select-1W8U2OOUAA1YQ.pcm
+│   │   │   │   ├── _sys_select-1W8U2OOUAA1YQ.pcm.timestamp
+│   │   │   │   ├── _tgmath-47SZ9A199RUD.pcm
+│   │   │   │   ├── _tgmath-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _time-47SZ9A199RUD.pcm
+│   │   │   │   ├── _time-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _useconds_t-1W8U2OOUAA1YQ.pcm
+│   │   │   │   ├── _useconds_t-1W8U2OOUAA1YQ.pcm.timestamp
+│   │   │   │   ├── _wchar-47SZ9A199RUD.pcm
+│   │   │   │   ├── _wchar-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _wctype-47SZ9A199RUD.pcm
+│   │   │   │   ├── _wctype-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── alloca-20RPYVQSX341K.pcm
+│   │   │   │   ├── alloca-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── gethostuuid-20RPYVQSX341K.pcm
+│   │   │   │   ├── gethostuuid-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── launch-3T3BU4MASLMUM.pcm
+│   │   │   │   ├── launch-3T3BU4MASLMUM.pcm.timestamp
+│   │   │   │   ├── libDER-26DYHF6GC6WWA.pcm
+│   │   │   │   ├── libDER-26DYHF6GC6WWA.pcm.timestamp
+│   │   │   │   ├── libkern-2KQ0X67RTM1JF.pcm
+│   │   │   │   ├── libkern-2KQ0X67RTM1JF.pcm.timestamp
+│   │   │   │   ├── mach-1W8U2OOUAA1YQ.pcm
+│   │   │   │   ├── mach-1W8U2OOUAA1YQ.pcm.timestamp
+│   │   │   │   ├── netinet_in-1W8U2OOUAA1YQ.pcm
+│   │   │   │   ├── netinet_in-1W8U2OOUAA1YQ.pcm.timestamp
+│   │   │   │   ├── nl_types-20RPYVQSX341K.pcm
+│   │   │   │   ├── nl_types-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── os-2MV8OP7R98AN8.pcm
+│   │   │   │   ├── os-2MV8OP7R98AN8.pcm.timestamp
+│   │   │   │   ├── os_availability-1R8AB8N4VAFAG.pcm
+│   │   │   │   ├── os_availability-1R8AB8N4VAFAG.pcm.timestamp
+│   │   │   │   ├── os_availability_internal-1R8AB8N4VAFAG.pcm
+│   │   │   │   ├── os_availability_internal-1R8AB8N4VAFAG.pcm.timestamp
+│   │   │   │   ├── os_object-2MV8OP7R98AN8.pcm
+│   │   │   │   ├── os_object-2MV8OP7R98AN8.pcm.timestamp
+│   │   │   │   ├── os_workgroup-2MV8OP7R98AN8.pcm
+│   │   │   │   ├── os_workgroup-2MV8OP7R98AN8.pcm.timestamp
+│   │   │   │   ├── pthread-20RPYVQSX341K.pcm
+│   │   │   │   ├── pthread-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── ptrauth-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── ptrauth-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── ptrcheck-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── ptrcheck-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── runetype-20RPYVQSX341K.pcm
+│   │   │   │   ├── runetype-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── simd-KY25Q80SBOHY.pcm
+│   │   │   │   ├── simd-KY25Q80SBOHY.pcm.timestamp
+│   │   │   │   ├── sys_resource-20RPYVQSX341K.pcm
+│   │   │   │   ├── sys_resource-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── sys_select-20RPYVQSX341K.pcm
+│   │   │   │   ├── sys_select-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── sys_time-1W8U2OOUAA1YQ.pcm
+│   │   │   │   ├── sys_time-1W8U2OOUAA1YQ.pcm.timestamp
+│   │   │   │   ├── sys_types-20RPYVQSX341K.pcm
+│   │   │   │   ├── sys_types-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── sys_wait-20RPYVQSX341K.pcm
+│   │   │   │   ├── sys_wait-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── unistd-20RPYVQSX341K.pcm
+│   │   │   │   ├── unistd-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── uuid-1W8U2OOUAA1YQ.pcm
+│   │   │   │   ├── uuid-1W8U2OOUAA1YQ.pcm.timestamp
+│   │   │   │   ├── xlocale-20RPYVQSX341K.pcm
+│   │   │   │   └── xlocale-20RPYVQSX341K.pcm.timestamp
+│   │   │   ├── Accessibility-13W90FX36H4F2.swiftmodule
+│   │   │   ├── AppKit-1WHIH5B5680V8.swiftmodule
+│   │   │   ├── Combine-15ZTWLFXBKVCR.swiftmodule
+│   │   │   ├── CoreAudio-20IIQXJB85MP.swiftmodule
+│   │   │   ├── CoreData-C47JKA3DJOHL.swiftmodule
+│   │   │   ├── CoreFoundation-3PPT6YJD3TNVM.swiftmodule
+│   │   │   ├── CoreGraphics-IHU8HGLM6Q4J.swiftmodule
+│   │   │   ├── CoreImage-2N652O5WPLOWM.swiftmodule
+│   │   │   ├── CoreMedia-27N2DA9MUEWTN.swiftmodule
+│   │   │   ├── CoreText-3LHWTEBNLZL5C.swiftmodule
+│   │   │   ├── CoreTransferable-N9ZQEREWDF8T.swiftmodule
+│   │   │   ├── Darwin-2EWWHTCWERATC.swiftmodule
+│   │   │   ├── DataDetection-28QZ7VJ3589I8.swiftmodule
+│   │   │   ├── DeveloperToolsSupport-E9M0AT1PRJ6S.swiftmodule
+│   │   │   ├── Dispatch-8XJKS9QBPSHR.swiftmodule
+│   │   │   ├── Foundation-2JJ0R61ZH6GJ0.swiftmodule
+│   │   │   ├── IOKit-1DOMI8B3P53RY.swiftmodule
+│   │   │   ├── Metal-8K2E3QB8D6FE.swiftmodule
+│   │   │   ├── OSLog-1PXRENS8EWYO0.swiftmodule
+│   │   │   ├── ObjectiveC-297FD0LZ40UCZ.swiftmodule
+│   │   │   ├── Observation-3D1NJ0UPZ7AJN.swiftmodule
+│   │   │   ├── QuartzCore-1ZQAW20O292O0.swiftmodule
+│   │   │   ├── Session.modulevalidation
+│   │   │   ├── Spatial-16SDO2QWMD1NX.swiftmodule
+│   │   │   ├── Swift-1G36GP3D0DRBZ.swiftmodule
+│   │   │   ├── SwiftOnoneSupport-39LJGPXACKRMS.swiftmodule
+│   │   │   ├── SwiftUI-FGNA91QPFDB4.swiftmodule
+│   │   │   ├── SwiftUICore-2Q7C9S0ANF5PP.swiftmodule
+│   │   │   ├── Symbols-3F8WHRLXCHS2Z.swiftmodule
+│   │   │   ├── System-OA9BJKH5PQG.swiftmodule
+│   │   │   ├── TXWKMOT0PIO5
+│   │   │   │   ├── AvailabilityMacros-1R8AB8N4VAFAG.pcm
+│   │   │   │   ├── AvailabilityMacros-1R8AB8N4VAFAG.pcm.timestamp
+│   │   │   │   ├── CFNetwork-1PNPO1ORVQZLS.pcm
+│   │   │   │   ├── CFNetwork-1PNPO1ORVQZLS.pcm.timestamp
+│   │   │   │   ├── CoreFoundation-16SA8WK3L6MQN.pcm
+│   │   │   │   ├── CoreFoundation-16SA8WK3L6MQN.pcm.timestamp
+│   │   │   │   ├── CoreGraphics-1PSDCAYCIV3T9.pcm
+│   │   │   │   ├── CoreGraphics-1PSDCAYCIV3T9.pcm.timestamp
+│   │   │   │   ├── CoreServices-39NCTJOEW7PQ2.pcm
+│   │   │   │   ├── CoreServices-39NCTJOEW7PQ2.pcm.timestamp
+│   │   │   │   ├── Darwin-1FXX23EKWOBA9.pcm
+│   │   │   │   ├── Darwin-1FXX23EKWOBA9.pcm.timestamp
+│   │   │   │   ├── DarwinFoundation-1W8U2OOUAA1YQ.pcm
+│   │   │   │   ├── DarwinFoundation-1W8U2OOUAA1YQ.pcm.timestamp
+│   │   │   │   ├── DiskArbitration-3LBJF5I58QD8.pcm
+│   │   │   │   ├── DiskArbitration-3LBJF5I58QD8.pcm.timestamp
+│   │   │   │   ├── Dispatch-R76HXUP80TVL.pcm
+│   │   │   │   ├── Dispatch-R76HXUP80TVL.pcm.timestamp
+│   │   │   │   ├── Foundation-24LYWIP48SHNP.pcm
+│   │   │   │   ├── Foundation-24LYWIP48SHNP.pcm.timestamp
+│   │   │   │   ├── IOKit-1IAL9NTK1TABA.pcm
+│   │   │   │   ├── IOKit-1IAL9NTK1TABA.pcm.timestamp
+│   │   │   │   ├── MachO-20RPYVQSX341K.pcm
+│   │   │   │   ├── MachO-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── ObjectiveC-1G8H182PQX3QE.pcm
+│   │   │   │   ├── ObjectiveC-1G8H182PQX3QE.pcm.timestamp
+│   │   │   │   ├── Security-3QCVXOV25KK54.pcm
+│   │   │   │   ├── Security-3QCVXOV25KK54.pcm.timestamp
+│   │   │   │   ├── TargetConditionals-1C41IB3E7JLP3.pcm
+│   │   │   │   ├── TargetConditionals-1C41IB3E7JLP3.pcm.timestamp
+│   │   │   │   ├── XPC-T0ZXCAST7PE3.pcm
+│   │   │   │   ├── XPC-T0ZXCAST7PE3.pcm.timestamp
+│   │   │   │   ├── _Builtin_float-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_float-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_inttypes-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_inttypes-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_iso646-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_iso646-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_limits-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_limits-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_stdarg-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_stdarg-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_stdatomic-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_stdatomic-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_stdbool-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_stdbool-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_stddef-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_stddef-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_stdint-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_stdint-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── _Builtin_tgmath-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── _Builtin_tgmath-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── __wctype-47SZ9A199RUD.pcm
+│   │   │   │   ├── __wctype-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _assert-47SZ9A199RUD.pcm
+│   │   │   │   ├── _assert-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _complex-47SZ9A199RUD.pcm
+│   │   │   │   ├── _complex-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _ctype-47SZ9A199RUD.pcm
+│   │   │   │   ├── _ctype-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _errno-47SZ9A199RUD.pcm
+│   │   │   │   ├── _errno-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _fenv-47SZ9A199RUD.pcm
+│   │   │   │   ├── _fenv-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _float-47SZ9A199RUD.pcm
+│   │   │   │   ├── _float-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _inttypes-47SZ9A199RUD.pcm
+│   │   │   │   ├── _inttypes-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _limits-47SZ9A199RUD.pcm
+│   │   │   │   ├── _limits-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _locale-47SZ9A199RUD.pcm
+│   │   │   │   ├── _locale-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _math-47SZ9A199RUD.pcm
+│   │   │   │   ├── _math-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _setjmp-47SZ9A199RUD.pcm
+│   │   │   │   ├── _setjmp-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _signal-47SZ9A199RUD.pcm
+│   │   │   │   ├── _signal-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _stdint-47SZ9A199RUD.pcm
+│   │   │   │   ├── _stdint-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _stdio-47SZ9A199RUD.pcm
+│   │   │   │   ├── _stdio-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _stdlib-47SZ9A199RUD.pcm
+│   │   │   │   ├── _stdlib-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _string-47SZ9A199RUD.pcm
+│   │   │   │   ├── _string-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _strings-20RPYVQSX341K.pcm
+│   │   │   │   ├── _strings-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── _sys_select-1W8U2OOUAA1YQ.pcm
+│   │   │   │   ├── _sys_select-1W8U2OOUAA1YQ.pcm.timestamp
+│   │   │   │   ├── _tgmath-47SZ9A199RUD.pcm
+│   │   │   │   ├── _tgmath-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _time-47SZ9A199RUD.pcm
+│   │   │   │   ├── _time-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _useconds_t-1W8U2OOUAA1YQ.pcm
+│   │   │   │   ├── _useconds_t-1W8U2OOUAA1YQ.pcm.timestamp
+│   │   │   │   ├── _wchar-47SZ9A199RUD.pcm
+│   │   │   │   ├── _wchar-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── _wctype-47SZ9A199RUD.pcm
+│   │   │   │   ├── _wctype-47SZ9A199RUD.pcm.timestamp
+│   │   │   │   ├── alloca-20RPYVQSX341K.pcm
+│   │   │   │   ├── alloca-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── gethostuuid-20RPYVQSX341K.pcm
+│   │   │   │   ├── gethostuuid-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── launch-3T3BU4MASLMUM.pcm
+│   │   │   │   ├── launch-3T3BU4MASLMUM.pcm.timestamp
+│   │   │   │   ├── libDER-26DYHF6GC6WWA.pcm
+│   │   │   │   ├── libDER-26DYHF6GC6WWA.pcm.timestamp
+│   │   │   │   ├── libkern-2KQ0X67RTM1JF.pcm
+│   │   │   │   ├── libkern-2KQ0X67RTM1JF.pcm.timestamp
+│   │   │   │   ├── mach-1W8U2OOUAA1YQ.pcm
+│   │   │   │   ├── mach-1W8U2OOUAA1YQ.pcm.timestamp
+│   │   │   │   ├── netinet_in-1W8U2OOUAA1YQ.pcm
+│   │   │   │   ├── netinet_in-1W8U2OOUAA1YQ.pcm.timestamp
+│   │   │   │   ├── nl_types-20RPYVQSX341K.pcm
+│   │   │   │   ├── nl_types-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── os_availability-1R8AB8N4VAFAG.pcm
+│   │   │   │   ├── os_availability-1R8AB8N4VAFAG.pcm.timestamp
+│   │   │   │   ├── os_availability_internal-1R8AB8N4VAFAG.pcm
+│   │   │   │   ├── os_availability_internal-1R8AB8N4VAFAG.pcm.timestamp
+│   │   │   │   ├── os_object-2MV8OP7R98AN8.pcm
+│   │   │   │   ├── os_object-2MV8OP7R98AN8.pcm.timestamp
+│   │   │   │   ├── os_workgroup-2MV8OP7R98AN8.pcm
+│   │   │   │   ├── os_workgroup-2MV8OP7R98AN8.pcm.timestamp
+│   │   │   │   ├── pthread-20RPYVQSX341K.pcm
+│   │   │   │   ├── pthread-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── ptrauth-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── ptrauth-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── ptrcheck-19KE09ZDXQ6Q3.pcm
+│   │   │   │   ├── ptrcheck-19KE09ZDXQ6Q3.pcm.timestamp
+│   │   │   │   ├── runetype-20RPYVQSX341K.pcm
+│   │   │   │   ├── runetype-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── sys_resource-20RPYVQSX341K.pcm
+│   │   │   │   ├── sys_resource-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── sys_select-20RPYVQSX341K.pcm
+│   │   │   │   ├── sys_select-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── sys_time-1W8U2OOUAA1YQ.pcm
+│   │   │   │   ├── sys_time-1W8U2OOUAA1YQ.pcm.timestamp
+│   │   │   │   ├── sys_types-20RPYVQSX341K.pcm
+│   │   │   │   ├── sys_types-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── sys_wait-20RPYVQSX341K.pcm
+│   │   │   │   ├── sys_wait-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── unistd-20RPYVQSX341K.pcm
+│   │   │   │   ├── unistd-20RPYVQSX341K.pcm.timestamp
+│   │   │   │   ├── uuid-1W8U2OOUAA1YQ.pcm
+│   │   │   │   ├── uuid-1W8U2OOUAA1YQ.pcm.timestamp
+│   │   │   │   ├── xlocale-20RPYVQSX341K.pcm
+│   │   │   │   └── xlocale-20RPYVQSX341K.pcm.timestamp
+│   │   │   ├── UniformTypeIdentifiers-Q2A98CQKIQ8K.swiftmodule
+│   │   │   ├── XPC-1LY5NN1U05VL0.swiftmodule
+│   │   │   ├── _Builtin_float-74R7B61QVIAW.swiftmodule
+│   │   │   ├── _Concurrency-YOTZG8741BHA.swiftmodule
+│   │   │   ├── _StringProcessing-15EHZJX9OS2ZI.swiftmodule
+│   │   │   ├── _errno-2YCFS45CJ7WIY.swiftmodule
+│   │   │   ├── _math-36CF1IDOLNAWV.swiftmodule
+│   │   │   ├── _signal-FMW2TOC6U594.swiftmodule
+│   │   │   ├── _stdio-3KTA0ZBYSAZYF.swiftmodule
+│   │   │   ├── _time-2QWA88RXPAPNG.swiftmodule
+│   │   │   ├── modules.timestamp
+│   │   │   ├── os-1TISCI6E33OXF.swiftmodule
+│   │   │   ├── simd-2LA5H1L3C0AX3.swiftmodule
+│   │   │   ├── sys_time-3TE5ZOME468TR.swiftmodule
+│   │   │   └── unistd-6V2BRGU859MJ.swiftmodule
+│   │   ├── SDKStatCaches.noindex
+│   │   │   └── macosx15.5-24F74-8254517eb8b97d462ccbc072ba9094c9.sdkstatcache
+│   │   └── info.plist
+│   └── native_assets
+│       └── macos
+├── ios
+│   ├── Flutter
+│   │   ├── AppFrameworkInfo.plist
+│   │   ├── Debug.xcconfig
+│   │   ├── Generated.xcconfig
+│   │   ├── Release.xcconfig
+│   │   ├── ephemeral
+│   │   │   ├── flutter_lldb_helper.py
+│   │   │   └── flutter_lldbinit
+│   │   └── flutter_export_environment.sh
+│   ├── Podfile
+│   ├── Runner
+│   │   ├── AppDelegate.swift
+│   │   ├── Assets.xcassets
+│   │   │   ├── AppIcon.appiconset
+│   │   │   │   ├── Contents.json
+│   │   │   │   ├── Icon-App-1024x1024@1x.png
+│   │   │   │   ├── Icon-App-20x20@1x.png
+│   │   │   │   ├── Icon-App-20x20@2x.png
+│   │   │   │   ├── Icon-App-20x20@3x.png
+│   │   │   │   ├── Icon-App-29x29@1x.png
+│   │   │   │   ├── Icon-App-29x29@2x.png
+│   │   │   │   ├── Icon-App-29x29@3x.png
+│   │   │   │   ├── Icon-App-40x40@1x.png
+│   │   │   │   ├── Icon-App-40x40@2x.png
+│   │   │   │   ├── Icon-App-40x40@3x.png
+│   │   │   │   ├── Icon-App-60x60@2x.png
+│   │   │   │   ├── Icon-App-60x60@3x.png
+│   │   │   │   ├── Icon-App-76x76@1x.png
+│   │   │   │   ├── Icon-App-76x76@2x.png
+│   │   │   │   └── Icon-App-83.5x83.5@2x.png
+│   │   │   └── LaunchImage.imageset
+│   │   │       ├── Contents.json
+│   │   │       ├── LaunchImage.png
+│   │   │       ├── LaunchImage@2x.png
+│   │   │       ├── LaunchImage@3x.png
+│   │   │       └── README.md
+│   │   ├── Base.lproj
+│   │   │   ├── LaunchScreen.storyboard
+│   │   │   └── Main.storyboard
+│   │   ├── GeneratedPluginRegistrant.h
+│   │   ├── GeneratedPluginRegistrant.m
+│   │   ├── Info.plist
+│   │   └── Runner-Bridging-Header.h
+│   ├── Runner.xcodeproj
+│   │   ├── project.pbxproj
+│   │   ├── project.xcworkspace
+│   │   │   ├── contents.xcworkspacedata
+│   │   │   └── xcshareddata
+│   │   │       ├── IDEWorkspaceChecks.plist
+│   │   │       ├── WorkspaceSettings.xcsettings
+│   │   │       └── swiftpm
+│   │   │           └── configuration
+│   │   └── xcshareddata
+│   │       └── xcschemes
+│   │           └── Runner.xcscheme
+│   ├── Runner.xcworkspace
+│   │   ├── contents.xcworkspacedata
+│   │   └── xcshareddata
+│   │       ├── IDEWorkspaceChecks.plist
+│   │       ├── WorkspaceSettings.xcsettings
+│   │       └── swiftpm
+│   │           └── configuration
+│   └── RunnerTests
+│       └── RunnerTests.swift
+├── lib
+│   ├── core
+│   │   ├── services
+│   │   │   ├── ai_recommendation_service.dart
+│   │   │   ├── database_service.dart
+│   │   │   └── gamification_service.dart
+│   │   └── utils
+│   │       └── logger.dart
+│   ├── data
+│   │   └── models
+│   │       └── user.dart
+│   ├── main.dart
+│   ├── models
+│   │   └── models.dart
+│   └── presentation
+│       └── pages
+│           ├── auth
+│           │   └── login_page.dart
+│           ├── dashboard
+│           │   └── dashboard_page.dart
+│           └── gamification
+│               └── achievements_page.dart
+├── linux
+│   ├── CMakeLists.txt
+│   ├── flutter
+│   │   ├── CMakeLists.txt
+│   │   ├── generated_plugin_registrant.cc
+│   │   ├── generated_plugin_registrant.h
+│   │   └── generated_plugins.cmake
+│   └── runner
+│       ├── CMakeLists.txt
+│       ├── main.cc
+│       ├── my_application.cc
+│       └── my_application.h
+├── macos
+│   ├── Flutter
+│   │   ├── Flutter-Debug.xcconfig
+│   │   ├── Flutter-Release.xcconfig
+│   │   ├── GeneratedPluginRegistrant.swift
+│   │   └── ephemeral
+│   │       ├── Flutter-Generated.xcconfig
+│   │       ├── FlutterInputs.xcfilelist
+│   │       ├── FlutterOutputs.xcfilelist
+│   │       ├── flutter_export_environment.sh
+│   │       └── tripwire
+│   ├── Podfile
+│   ├── Podfile.lock
+│   ├── Pods
+│   │   ├── Headers
+│   │   ├── Local Podspecs
+│   │   │   └── FlutterMacOS.podspec.json
+│   │   ├── Manifest.lock
+│   │   ├── Pods.xcodeproj
+│   │   │   ├── project.pbxproj
+│   │   │   └── xcuserdata
+│   │   │       └── stivenjakson.xcuserdatad
+│   │   │           └── xcschemes
+│   │   │               ├── FlutterMacOS.xcscheme
+│   │   │               ├── Pods-Runner.xcscheme
+│   │   │               ├── Pods-RunnerTests.xcscheme
+│   │   │               └── xcschememanagement.plist
+│   │   └── Target Support Files
+│   │       ├── FlutterMacOS
+│   │       │   ├── FlutterMacOS.debug.xcconfig
+│   │       │   └── FlutterMacOS.release.xcconfig
+│   │       ├── Pods-Runner
+│   │       │   ├── Pods-Runner-Info.plist
+│   │       │   ├── Pods-Runner-acknowledgements.markdown
+│   │       │   ├── Pods-Runner-acknowledgements.plist
+│   │       │   ├── Pods-Runner-dummy.m
+│   │       │   ├── Pods-Runner-umbrella.h
+│   │       │   ├── Pods-Runner.debug.xcconfig
+│   │       │   ├── Pods-Runner.modulemap
+│   │       │   ├── Pods-Runner.profile.xcconfig
+│   │       │   └── Pods-Runner.release.xcconfig
+│   │       └── Pods-RunnerTests
+│   │           ├── Pods-RunnerTests-Info.plist
+│   │           ├── Pods-RunnerTests-acknowledgements.markdown
+│   │           ├── Pods-RunnerTests-acknowledgements.plist
+│   │           ├── Pods-RunnerTests-dummy.m
+│   │           ├── Pods-RunnerTests-umbrella.h
+│   │           ├── Pods-RunnerTests.debug.xcconfig
+│   │           ├── Pods-RunnerTests.modulemap
+│   │           ├── Pods-RunnerTests.profile.xcconfig
+│   │           └── Pods-RunnerTests.release.xcconfig
+│   ├── Runner
+│   │   ├── AppDelegate.swift
+│   │   ├── Assets.xcassets
+│   │   │   └── AppIcon.appiconset
+│   │   │       ├── Contents.json
+│   │   │       ├── app_icon_1024.png
+│   │   │       ├── app_icon_128.png
+│   │   │       ├── app_icon_16.png
+│   │   │       ├── app_icon_256.png
+│   │   │       ├── app_icon_32.png
+│   │   │       ├── app_icon_512.png
+│   │   │       └── app_icon_64.png
+│   │   ├── Base.lproj
+│   │   │   └── MainMenu.xib
+│   │   ├── Configs
+│   │   │   ├── AppInfo.xcconfig
+│   │   │   ├── Debug.xcconfig
+│   │   │   ├── Release.xcconfig
+│   │   │   └── Warnings.xcconfig
+│   │   ├── DebugProfile.entitlements
+│   │   ├── Info.plist
+│   │   ├── MainFlutterWindow.swift
+│   │   └── Release.entitlements
+│   ├── Runner.xcodeproj
+│   │   ├── project.pbxproj
+│   │   ├── project.xcworkspace
+│   │   │   └── xcshareddata
+│   │   │       ├── IDEWorkspaceChecks.plist
+│   │   │       └── swiftpm
+│   │   │           └── configuration
+│   │   └── xcshareddata
+│   │       └── xcschemes
+│   │           └── Runner.xcscheme
+│   ├── Runner.xcworkspace
+│   │   ├── contents.xcworkspacedata
+│   │   └── xcshareddata
+│   │       ├── IDEWorkspaceChecks.plist
+│   │       └── swiftpm
+│   │           └── configuration
+│   └── RunnerTests
+│       └── RunnerTests.swift
+├── pubspec.lock
+├── pubspec.yaml
+├── structure.txt
+├── test
+│   └── widget_test.dart
+├── web
+│   ├── favicon.png
+│   ├── icons
+│   │   ├── Icon-192.png
+│   │   ├── Icon-512.png
+│   │   ├── Icon-maskable-192.png
+│   │   └── Icon-maskable-512.png
+│   ├── index.html
+│   └── manifest.json
+└── windows
+    ├── CMakeLists.txt
+    ├── flutter
+    │   ├── CMakeLists.txt
+    │   ├── generated_plugin_registrant.cc
+    │   ├── generated_plugin_registrant.h
+    │   └── generated_plugins.cmake
+    └── runner
+        ├── CMakeLists.txt
+        ├── Runner.rc
+        ├── flutter_window.cpp
+        ├── flutter_window.h
+        ├── main.cpp
+        ├── resource.h
+        ├── resources
+        │   └── app_icon.ico
+        ├── runner.exe.manifest
+        ├── utils.cpp
+        ├── utils.h
+        ├── win32_window.cpp
+        └── win32_window.h
+
+231 directories, 1190 files

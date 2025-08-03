@@ -1,25 +1,42 @@
+# فایل: pubspec.yaml
+# تنظیمات پروژه Smart Money Bell
+
 name: smart_money_bell
-description: اپلیکیشن هوشمند مدیریت سرمایه‌گذاری
-publish_to: 'none'
+description: اپلیکیشن هوشمند مدیریت سرمایه‌گذاری و وفاداری مشتریان
+
+# نسخه برنامه
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.8.1
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
+  
+  # فارسی‌سازی
   flutter_localizations:
     sdk: flutter
+  
+  # آیکون‌های Cupertino
   cupertino_icons: ^1.0.8
+  
+  # مدیریت state (ضروری برای architecture)
+  provider: ^6.0.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
 
+# تنظیمات Flutter
 flutter:
+  # فعال‌سازی Material Design
   uses-material-design: true
+  
+  # منابع (Assets)
+  assets:
+    - assets/images/
+    - assets/icons/
   
   # فونت‌های فارسی
   fonts:
@@ -35,3 +52,5 @@ flutter:
           weight: 400
         - asset: assets/fonts/IRANSans-Bold.ttf
           weight: 700
+  
+  # منابع (Assets)
